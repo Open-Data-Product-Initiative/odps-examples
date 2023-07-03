@@ -1,2 +1,5 @@
-# odps-examples
-ODPS data product examples
+# Open Data Product Specification Data Product examples
+
+- Open Data (open data + monthly paid plan)
+- Dashboard (freemium + monthly paid plan)
+- Streaming data product (freemium plan + pay as you go paid plan)
