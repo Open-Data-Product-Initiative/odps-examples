@@ -9,8 +9,8 @@ The below example Open Data Product Specification is created by ODPS developers 
       "en":{
          "name":"Hourly Singapore Ultra-violet values data API",
          "productID":"sg01",
-         "valueProposition":"Get up-to-date hourly UV index values from Singapore",
-         "description":"UV Index value averaged over the past hour. Updated every hour between 7 AM and 7 PM everyday.",
+         "valueProposition":"UV Index value averaged over the past hour. Updated every hour between 7 AM and 7 PM everyday.",
+         "description":"National Environment Agency provides APIs for readings of temperature, humidity, precipitation and wind conditions at up to one-minute intervals. The data is provided at weather-station level.",
          "productSeries":"",
          "visibility":"public",
          "status":"production",
@@ -24,7 +24,7 @@ The below example Open Data Product Specification is created by ODPS developers 
          "tags":[
             "ultra-violet, hourly, daily, API, National Environment Agency" 
          ],
-         "brandSlogan":"Singapore's national open data collection",
+         "brandSlogan":"A clean environment, towards a liveable and sustainable Singapore.",
          "type":"open data",
          "logoURL":"https://data-product-business.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png",
          "OutputFileFormats":[
@@ -146,21 +146,21 @@ The below example Open Data Product Specification is created by ODPS developers 
          }
       },
       "dataHolder":{
-         "taxID":"12243434-12",
-         "vatID":"12243434-12",
+         "taxID":"",
+         "vatID":"",
          "businessDomain":"National Environment Agency",
          "logoURL":"https://mindmote.fi/logo.png",
-         "description":"Digital Economy services and tools",
-         "URL":"https://mindmote.fi",
+         "description":"The National Environment Agency (NEA) is the leading public organisation responsible for ensuring a clean and sustainable environment for Singapore. Its key roles are to improve and sustain a clean environment, promote sustainability and resource efficiency, maintain high public health standards, provide timely and reliable meteorological information, and encourage a vibrant hawker culture. NEA works closely with its partners and the community to develop and spearhead environmental and public health initiatives and programmes. It is committed to motivating every individual to care for the environment as a way of life, in order to build a liveable and sustainable Singapore for present and future generations.",
+         "URL":"https://www.nea.gov.sg/",
          "telephone":"+358 45 232 2323",
          "streetAddress":"Koulukatu 1",
          "postalCode":"33100",
-         "addressRegion":" Pirkanmaa",
-         "addressLocality":"Tampere",
-         "addressCountry":"Finland",
+         "addressRegion":" Singapore",
+         "addressLocality":"Singapore",
+         "addressCountry":"Singapore",
          "aggregateRating":"",
-         "ratingCount":1245,
-         "slogan":"",
+         "ratingCount":,
+         "slogan":"A clean environment, towards a liveable and sustainable Singapore.",
          "parentOrganization":""
       }
    }
