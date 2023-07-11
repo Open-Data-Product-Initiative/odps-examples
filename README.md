@@ -2,13 +2,10 @@
 
 Examples are for the latest release
 
-## Open Data APIs
+## Open Data APIs and files
 
 - Ultra-violet Index (UVI) MVP with license url extension
 - Ultra-violet Index (UVI) with built-in licensing model and additional attributes
-
-## Open Data sets (files-based)
-
 
 ## Geospatial data
 
