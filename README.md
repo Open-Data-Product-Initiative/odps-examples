@@ -20,7 +20,7 @@ Link:
 Example of realtime data API driven data product described in two languages: Finnish and English. 
 Also uses "x-" feature to extend standard ODPS model to link open data license to the product description instead of using ODPS standard model.  
 
-Link: https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/wind-power-realtime-finland-mvp.md 
+[Link to example](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/wind-power-realtime-finland-mvp.md) 
 
 ## Geospatial data
 
