@@ -2,6 +2,18 @@
 
 Examples are for the latest release
 
-- Open Data (open data + monthly paid plan)
-- Dashboard (freemium + monthly paid plan)
-- Streaming data product (freemium plan + pay as you go paid plan)
+## Open Data APIs
+
+- Ultra-violet Index (UVI) MVP with license url extension
+- Ultra-violet Index (UVI) with built-in licensing model and additional attributes
+
+## Open Data sets (files-based)
+
+
+## Geospatial data
+
+
+## Data Exchange examples
+
+
+## Various pricing plan combinations
