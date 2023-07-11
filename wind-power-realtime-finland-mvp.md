@@ -32,8 +32,31 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
             "json",
             "xml",
             "csv"
-         ]
+         ] 
+      },
+      "fi":{
+         "name":"Tuulivoimatuotanto - reaaliaikatieto ",
+         "productID":"fi01",
+         "description": "Tuulivoiman hetkellinen tuotantoteho Fingridin käytönvalvontajärjestelmän mittaustiedoista. Noin kaksi prosenttia tuotantokapasiteetista on arvioitua, sillä mittaustietoa ei ole saatavilla. Tieto päivitetään 3 minuutin välein.",
+         "visibility":"public",
+         "status":"production",
+         "x-license": "http://www.opendefinition.org/licenses/cc-by",
+         "version":"1.0",
+         "categories":[
+            "energy, open data, government"
+         ],
          
+         "tags":[
+            "Tuulivoima, Reaaliaikatieto" 
+         ],
+         "brandSlogan":"Avointa dataa sähkömarkkinoista ja voimajärjestelmästä",
+         "type":"dataset",
+         "logoURL":"https://data-product-business.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png",
+         "OutputFileFormats":[
+            "json",
+            "xml",
+            "csv"
+         ] 
       },
       "dataAccess":{
          "type":"API",
@@ -53,7 +76,16 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
                "unit":"open-data",
                "maxTransactionQuantity":"unlimited"
             },
-            
+         ],
+         "fi":[
+            {
+               "name":"Ilmainen avoindata API",
+               "priceCurrency":"EUR",
+               "price":"0.00",
+               "billingDuration":"year",
+               "unit":"open-data",
+               "maxTransactionQuantity":"unlimited"
+            },
          ]
       },
 
