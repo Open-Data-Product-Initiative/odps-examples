@@ -3,6 +3,8 @@
 
 The below example Open Data Product Specification is created by ODPS developers and is not official version. You can find the original information of the Ultra-violet Index (UVI) from https://data.gov.sg/dataset/ultraviolet-index-uvi 
 
+Example with Open Data Product Specification 2.1. https://open-data-product-initiative.github.io/open-data-product-spec-2.1 
+
 ```
 {
    "product":{
