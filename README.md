@@ -24,7 +24,7 @@ Also uses "x-" feature to extend standard ODPS model to link open data license t
 
 ## Geospatial data
 
-### Background map (raster) - (National Land Survey of Finland) - Multilang example 
+### Background map (raster) - (National Land Survey of Finland) - Multilang example with x-license extensions
 
 [Link to example](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/background-raster-map-finland.md) 
 
