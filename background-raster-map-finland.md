@@ -1,4 +1,4 @@
-# National Land Survey of Finland: Background Maps (raster) with x-license extensions
+# National Land Survey of Finland: Background Maps (raster) with custom extensions
 
 The below example Open Data Product Specification is created by ODPS developers and is not official version. You can find the original information of National Land Survey of Finland´s Background map (raster) from https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/product-descriptions/background-map-series-raster
 
