@@ -84,14 +84,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 				"maxTransactionQuantity": "unlimited"
 			}]
 		},
-
-		"dataAccess": {
-			"type": "API",
-			"authenticationMethod": "None",
-			"specification": "OAS",
-			"format": "JSON",
-			"documentationURL": "https://data.gov.sg/dataset/ultraviolet-index-uvi"
-		},
 		"SLA": {
 			"updateFrequency": {
 				"unit": "hours",
