@@ -37,8 +37,8 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
          ]
       },
       "recommendedDataProducts":[
-          "https://data.gov.sg/dataset/weather-forecast, 
-          https://data.gov.sg/dataset/realtime-weather-readings",
+          "https://data.gov.sg/dataset/weather-forecast", 
+          "https://data.gov.sg/dataset/realtime-weather-readings",
           "https://data.gov.sg/dataset/pm2-5"
           ],      
       "pricingPlans":{
