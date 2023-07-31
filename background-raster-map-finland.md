@@ -12,11 +12,43 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
       "en":{
          "name":"NLS Background map (raster)",
          "productID":"nls001",
-         "valueProposition":"The Background map is a dataset product series in raster format that depicts the whole of Finland and that is meant for web use as a background material for thematic data. Its key objects are road names, roads and railways, buildings and constructions, administrative borders, geographical names, waterways, land use and addresses of buildings (from the Digital and             Population Data Services Agency). The product belongs to the open data of the National Land Survey of Finland.",         
+         "valueProposition":"The Background map is a dataset product series in raster format that depicts the whole of Finland and that is meant          for web use as a background material for thematic data. Its key objects are road names, roads and railways, buildings and                        constructions, administrative borders, geographical names, waterways, land use and addresses of buildings (from the Digital and                  Population Data Services Agency). The product belongs to the open data of the National Land Survey of Finland.",
+         "description": "The data content of the Background map series according to background map rasters:
+         The data content becomes larger as the scale increases. The data content includes objects that are essential when locating your                  position. The images have been anti-aliased.",
          "visibility":"public",
          "status":"production",
-         "version":"1.0",
-         "x-license": "https://data.gov.sg/open-data-licence",
+         "x-license": "https://creativecommons.org/licenses/by/4.0/",
+         "x-geographicLocation": "Entire Finland",
+         "x-spatialRepresentation": "Raster",
+         "x-coordinateReferenceSystem": [
+         "EPSG:3067"
+         ],
+         "x-scales":[
+            "1:5000",
+            "1:10000",
+            "1:20000",
+            "1:40000",
+            "1:80000",
+            "1:160000",
+            "1:320000",
+            "1:800000",
+            "1:2000000",
+            "1:4000000",
+            "1:8000000"
+            ],
+         "x-pixelSizeMeters":[
+            "0.5",
+            "2",
+            "4",
+            "8"
+            "16",
+            "32",
+            "64",
+            "128",
+            "256"
+            "1024",
+            "2048"
+            ],
          "categories":[
             "environment, open data, government, geospatial"
          ],
@@ -28,15 +60,12 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
          "type":"dataset",
          "logoURL":"https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
          "OutputFileFormats":[
-            "png",
-            "jpg"
+            "png"
          ]
          
       },
       "recommendedDataProducts":[
-          "https://data.gov.sg/dataset/weather-forecast, 
-          https://data.gov.sg/dataset/realtime-weather-readings",
-          "https://data.gov.sg/dataset/pm2-5"
+          "https://www.maanmittauslaitos.fi/maastotietokannan-kyselypalvelu" 
           ],      
       "pricingPlans":{
          "en":[
@@ -47,28 +76,21 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
                "billingDuration":"year",
                "unit":"open-data",
                "maxTransactionQuantity":"unlimited"
-            },
-            
+            },        
          ]
       },
 
       "dataAccess":{
-         "type":"API",
-         "authenticationMethod":"None",
-         "specification":"OAS",
-         "format":"JSON",
-         "documentationURL":"https://data.gov.sg/dataset/ultraviolet-index-uvi"
-      
-     
+         "type":"WMTS",
+         "authenticationMethod":"API Key",
+         "documentationURL":"https://www.maanmittauslaitos.fi/karttakuvapalvelu/tekninen-kuvaus-wmts"     
       },
-      "dataHolder":{
-       
+      "dataHolder":{      
          "businessDomain":"National Land Survey of Finland",
          "logoURL":"https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
-         "description":"The National Environment Agency (NEA) is the leading public organisation responsible for ensuring a clean and sustainable environment for Singapore. Its key roles are to improve and sustain a clean environment, promote sustainability and resource efficiency, maintain high public health standards, provide timely and reliable meteorological information, and encourage a vibrant hawker culture. NEA works closely with its partners and the community to develop and spearhead environmental and public health initiatives and programmes. It is committed to motivating every individual to care for the environment as a way of life, in order to build a liveable and sustainable Singapore for present and future generations.",
+         "description":"The National Land Survey of Finland safeguards the land ownership and credit system by maintaining information about properties and housing company shares in its registers and takes care of the registration of ownership and mortgages. Other tasks of the agency include spatial data research and application.",
          "URL":"https://www.nls.fi/",
          "addressCountry":"Finland",
-         "slogan":"A clean environment, towards a liveable and sustainable Singapore."
       }
    }
 }
