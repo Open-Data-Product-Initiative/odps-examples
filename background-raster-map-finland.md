@@ -6,20 +6,19 @@ This example is the compact version data product description you can you with OD
 
 Example with Open Data Product Specification 2.1. https://open-data-product-initiative.github.io/open-data-product-spec-2.1
 
-....
+```
 {
    "product":{
       "en":{
          "name":"NLS Background map (raster)",
          "productID":"nls001",
-         "valueProposition":"The Background map is a dataset product series in raster format that depicts the whole of Finland and that is meant for web use as a background material for thematic data. Its key objects are road names, roads and railways, buildings and constructions, administrative borders, geographical names, waterways, land use and addresses of buildings (from the Digital and Population Data Services Agency).
-The product belongs to the open data of the National Land Survey of Finland.",         
+         "valueProposition":"The Background map is a dataset product series in raster format that depicts the whole of Finland and that is meant for web use as a background material for thematic data. Its key objects are road names, roads and railways, buildings and constructions, administrative borders, geographical names, waterways, land use and addresses of buildings (from the Digital and             Population Data Services Agency). The product belongs to the open data of the National Land Survey of Finland.",         
          "visibility":"public",
          "status":"production",
          "version":"1.0",
          "x-license": "https://data.gov.sg/open-data-licence",
          "categories":[
-            "environment, open data, government"
+            "environment, open data, government, geospatial"
          ],
          
          "tags":[
