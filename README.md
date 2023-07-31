@@ -24,7 +24,7 @@ Also uses "x-" feature to extend standard ODPS model to link open data license t
 
 ## Geospatial data
 
-[Link to example](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/wind-power-realtime-finland-mvp.md) 
+[Link to example](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/background-raster-map-finland.md) 
 
 ## Data Exchange examples
 
