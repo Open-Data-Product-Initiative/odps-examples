@@ -15,7 +15,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"productID": "sg01",
 			"valueProposition": "UV Index value averaged over the past hour. Updated every hour between 7 AM and 7 PM everyday.",
 			"description": "National Environment Agency provides APIs for readings of temperature, humidity, precipitation and wind conditions at up to one-minute intervals. The data is provided at weather-station level.",
-
 			"visibility": "public",
 			"status": "production",
 			"version": "1.0",
@@ -23,7 +22,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"categories": [
 				"environment, open data, government"
 			],
-
 			"tags": [
 				"ultra-violet, hourly, daily, API, National Environment Agency"
 			],
@@ -33,7 +31,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"OutputFileFormats": [
 				"json"
 			]
-
 		},
 		"recommendedDataProducts": [
 			"https://data.gov.sg/dataset/weather-forecast",
@@ -49,7 +46,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 					"unit": "open-data",
 					"maxTransactionQuantity": "unlimited"
 				}
-
 			]
 		},
 		"dataAccess": {
@@ -58,8 +54,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"specification": "OAS",
 			"format": "JSON",
 			"documentationURL": "https://data.gov.sg/dataset/ultraviolet-index-uvi"
-
-
 		},
 		"dataHolder": {
 
@@ -72,5 +66,4 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 		}
 	}
 }
-
 ```
