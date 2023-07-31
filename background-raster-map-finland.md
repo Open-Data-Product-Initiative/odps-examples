@@ -88,7 +88,7 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"description": "The National Land Survey of Finland safeguards the land ownership and credit system by maintaining information about properties and housing company shares in its registers and takes care of the registration of ownership and mortgages. Other tasks of the agency include spatial data research and application.",
 			"URL": "https://www.nls.fi/",
 			"addressCountry": "Finland",
-			"slogan": "Information about the Earth.",
+			"slogan": "Information about the Earth",
 		}
 	}
 }
