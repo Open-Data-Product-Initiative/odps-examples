@@ -1,4 +1,4 @@
-# National Land Survey of Finland: Background Maps (raster) with custom extensions
+# National Land Survey of Finland: Background Maps (raster) with extensions
 
 The below example Open Data Product Specification is created by ODPS developers and is not official version. You can find the original information of National Land Survey of Finland´s Background map (raster) from https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/product-descriptions/background-map-series-raster
 
@@ -13,7 +13,7 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"name": "NLS Background map (raster)",
 			"productID": "nls001",
 			"valueProposition": "The Background map is a dataset product series in raster format that depicts the whole of Finland and that is meant for web use as a background material for thematic data. Its key objects are road names, roads and railways, buildings and                        constructions, administrative borders, geographical names, waterways, land use and addresses of buildings (from the Digital and Population Data Services Agency). The product belongs to the open data of the National Land Survey of Finland.",
-			"description": "The data content of the Background map series according to background map rasters: The data content becomes larger as the scale increases.The data content includes objects that are essential when locating your position.The images have been anti - aliased.",
+			"description": "The data content of the Background map series according to background map rasters: The data content becomes larger as the scale increases.The data content includes objects that are essential when locating your position. The images have been anti-aliased.",
 			"visibility": "public",
 			"status": "production",
 			"x-license": "https://creativecommons.org/licenses/by/4.0/",
@@ -57,7 +57,6 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"tags": [
 				"maps, geospatial, NLS, National Land Survey of Finland"
 			],
-			"brandSlogan": "Information about the Earth.",
 			"type": "dataset",
 			"logoURL": "https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
 			"OutputFileFormats": [
@@ -88,7 +87,8 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"logoURL": "https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
 			"description": "The National Land Survey of Finland safeguards the land ownership and credit system by maintaining information about properties and housing company shares in its registers and takes care of the registration of ownership and mortgages. Other tasks of the agency include spatial data research and application.",
 			"URL": "https://www.nls.fi/",
-			"addressCountry": "Finland"
+			"addressCountry": "Finland",
+			"slogan": "Information about the Earth.",
 		}
 	}
 }
