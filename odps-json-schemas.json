@@ -3,7 +3,7 @@
 	"$id": "https://github.com/Open-Data-Product-Initiative/odps-json-schemas.json",
 	"type": "object",
 	"default": {},
-	"title": "root",
+	"title": "product",
 	"properties": {
 		"product": {
 			"type": "object",
