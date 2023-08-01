@@ -64,7 +64,8 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			]
 		},
 		"recommendedDataProducts": [
-			"https://www.maanmittauslaitos.fi/maastotietokannan-kyselypalvelu"
+			"https://www.maanmittauslaitos.fi/maastotietokannan-kyselypalvelu",
+			"https://www.maanmittauslaitos.fi/kiinteistotietojen-kyselypalvelu-ogc-api"
 		],
 		"pricingPlans": {
 			"en": [{
