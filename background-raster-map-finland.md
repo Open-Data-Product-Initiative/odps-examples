@@ -55,7 +55,7 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 				"environment, open data, government, geospatial"
 			],
 			"tags": [
-				"maps, geospatial, NLS, National Land Survey of Finland"
+				"maps, geospatial, national land survey of finland"
 			],
 			"type": "dataset",
 			"logoURL": "https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
