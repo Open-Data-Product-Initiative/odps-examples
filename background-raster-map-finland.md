@@ -18,7 +18,7 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"status": "production",
 			"x-license": "https://creativecommons.org/licenses/by/4.0/",
 			"x-geographicLocation": "Finland",
-			"x-spatialRepresentation": "Raster",
+			"x-spatialRepresentation": "raster",
 			"x-coordinateReferenceSystem": [
 				"EPSG:3067"
 			],
