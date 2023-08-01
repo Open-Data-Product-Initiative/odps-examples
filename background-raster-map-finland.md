@@ -17,7 +17,7 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"visibility": "public",
 			"status": "production",
 			"x-license": "https://creativecommons.org/licenses/by/4.0/",
-			"x-geographicLocation": "Entire Finland",
+			"x-geographicLocation": "Finland",
 			"x-spatialRepresentation": "Raster",
 			"x-coordinateReferenceSystem": [
 				"EPSG:3067"
@@ -82,13 +82,27 @@ Example with Open Data Product Specification 2.1. https://open-data-product-init
 			"authenticationMethod": "API Key",
 			"documentationURL": "https://www.maanmittauslaitos.fi/karttakuvapalvelu/tekninen-kuvaus-wmts"
 		},
-		"dataHolder": {
-			"businessDomain": "National Land Survey of Finland",
-			"logoURL": "https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
-			"description": "The National Land Survey of Finland safeguards the land ownership and credit system by maintaining information about properties and housing company shares in its registers and takes care of the registration of ownership and mortgages. Other tasks of the agency include spatial data research and application.",
-			"URL": "https://www.nls.fi/",
-			"addressCountry": "Finland",
-			"slogan": "Information about the Earth",
+		"SLA": {
+
+			"support": {
+				"company": {
+					"email": "verkkopalvelut@maanmittauslaitos.fi",
+					"emailServiceHours": "Mon-Fri at 8am - 4pm, UTC+3",
+					"x-contactUsformUrl": "https://www.maanmittauslaitos.fi/en/contact-us"
+				},
+				"observability": {
+					"healthStatus": true,
+					"dashboardURL": "https://sovellustilanne.maanmittauslaitos.fi/fi/",
+				}
+			},
+			"dataHolder": {
+				"businessDomain": "National Land Survey of Finland",
+				"logoURL": "https://www.maanmittauslaitos.fi/themes/custom/mml/images/english_logo_rgb.svg",
+				"description": "The National Land Survey of Finland safeguards the land ownership and credit system by maintaining information about properties and housing company shares in its registers and takes care of the registration of ownership and mortgages. Other tasks of the agency include spatial data research and application.",
+				"URL": "https://www.nls.fi/",
+				"addressCountry": "Finland",
+				"slogan": "Information about the Earth"
+			}
 		}
 	}
 }
