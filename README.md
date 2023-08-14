@@ -32,3 +32,10 @@ Also uses "x-" feature to extend standard ODPS model to link open data license t
 
 
 ## Various pricing plan combinations
+
+# Open Data Product Specification Data Product JSON Schema
+
+[Link to JSON Schema](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/odps-v2.1-json-schema.json) 
+
+
+
