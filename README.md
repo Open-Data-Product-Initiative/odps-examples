@@ -25,7 +25,7 @@ Also uses "x-" feature to extend standard ODPS model to link open data license t
 ## Geospatial data
 
 
-## Abu Dhabi Open Data Platform datasets
+## Abu Dhabi Open Data Platform datasets (3,300)
 
 In this folder you'll find the source data as JSON package and ODPS descriptions of each dataset in Abu Dhabi Open Data Portal. 
 As part of this exercise over 3,300 open datasets were programmably (small ugly amateur level Python script) converted from DCAT to ODPS. 
