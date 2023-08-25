@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"POD card holders based on disability type and Emirate",
+                "description":"the data represents the People of Determination Card holders based on the type of disability, emirate (place of residance ) and year of registration from 2009 to 2020",
+                "productID":"b8170282-4eed-4236-9441-46cfb559bf2b",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"حاملي بطاقات أصحاب الهمم حسب نوع الاعاقة و الامارة",
+                "description":"تستعرض البيانات توزيع حاملي بطاقة أصحاب الهمم في الدولة حسب نوع الإعاقة والإمارة (مكان الاقامة) وسنة التسجيل من 2009-2020",
+                "productID":"b8170282-4eed-4236-9441-46cfb559bf2b",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["http://data.bayanat.ae/ar/dataset/b00d94b7-5e0d-4d28-a361-fc80cac9d146/resource/456885e1-2453-4c1e-9adb-b1d338948d69/download/pod-cases-card-holders_disability-type_emirate-2009-2020.xlsx", "http://data.bayanat.ae/en_GB/api/1/util/snippet/api_info.html?resource_id=456885e1-2453-4c1e-9adb-b1d338948d69&amp;datastore_root_url=http%3A%2F%2Fdata.bayanat.ae%2Fapi%2Faction"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Ministry of Community Development",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Sources for Gravel",
+                "description":"This layer representing the Sources for Gravels is a derived dataset from the Abu Dhabi Soil Survey Project 2009. Gravel is used in great quantities in many kinds of construction. The intent of this assessment is to show only the probability of finding material in any given map unit. The suitability of the gravel for specific purposes is not evaluated because quality depends on how the source material is to be used and requires a level of detail beyond the scope of 1:100,000 scale mapping. The gravel may occur naturally in appropriate fragment sizes, or may be produced by crushing rock.The map illustrates the distribution of gravel sources within Abu Dhabi. Use limitations The data must be used appropriately for the scale of mapping. Prior to decisions about land use more detailed site inspection is likely to be required to develop detailed understanding of soil and site characteristics related to the planned use. Created by Environment Agency Abu Dhabi as part of the Abu Dhabi Soil Survey project.",
+                "productID":"7bb46266-ab58-4963-9554-8a44bf326093",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"مصادر الحصى",
+                "description":"هذه الطبقة التي تمثل مصادر الحصى هي مجموعة بيانات مشتقة من مشروع مسح التربة في أبوظبي 2009. يستخدم الحصى بكميات كبيرة في العديد من أنواع البناء. الهدف من هذا التقييم هو إظهار احتمال العثور فقط على مادة في أي وحدة خريطة معينة. لم يتم تقييم مدى ملاءمة الحصى لأغراض محددة لأن الجودة تعتمد على كيفية استخدام مادة المصدر وتتطلب مستوى من التفاصيل يتجاوز نطاق رسم الخرائط بمقياس 1: 100،000. قد يتشكل الحصى بشكل طبيعي بأحجام شظايا مناسبة ، أو قد ينتج عن طريق تكسير الصخور. توضح الخريطة توزيع مصادر الحصى داخل أبوظبي. قيود الاستخدام يجب استخدام البيانات بشكل مناسب لمقياس رسم الخرائط. قبل اتخاذ قرارات بشأن استخدام الأراضي ، من المحتمل أن تكون هناك حاجة إلى مزيد من التفتيش التفصيلي للموقع لتطوير فهم مفصل للتربة وخصائص الموقع المتعلقة بالاستخدام المخطط. تم إنشاؤه بواسطة هيئة البيئة - أبوظبي كجزء من مشروع مسح التربة في أبوظبي",
+                "productID":"7bb46266-ab58-4963-9554-8a44bf326093",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/LandResources/MapServer/6"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

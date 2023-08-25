@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Soil Water Table",
+                "description":"This layer representing the Soil Water Table is a derived dataset from the Abu Dhabi Soil Survey Project 2009. Evaluation for water table depth evaluates the depth from the soil surface to the soil water table (defined as ‘free-standing water in an open bore-hole or well at the time of observation’). The water table provides information about a significant unfavorable plant root environment and physically limits downward plant root growth. The information can also be used in models for soil hydrology, water budgeting, leaching and nutrient/pesticide loading. In this survey, this interpretation identified the location and depth to the saturated soil layer. Generally the occurrence of shallow water tables was closely correlated with the distribution of the saline soils and with the Aquisalids in particular. The management of shallow water tables is a difficult problem for low input systems, particularly where the water table is highly saline as occurs predominantly in Abu Dhabi. Use limitations The data must be used appropriately for the scale of mapping. Prior to decisions about land use more detailed site inspection is likely to be required to develop detailed understanding of soil and site characteristics related to the planned use. Created by Environment Agency Abu Dhabi as part of the Abu Dhabi Soil Survey project. Data Origin:EAD.",
+                "productID":"e0765c9f-9101-4b9e-99d2-2b6a7012fdfc",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"جدول مياه التربة",
+                "description":"هذه الطبقة التي تمثل جدول مياه التربة هي مجموعة بيانات مستمدة من مشروع مسح التربة في أبو ظبي لعام 2009. ويقيم تقييم عمق المياه الجوفية العمق من سطح التربة إلى منسوب مياه التربة (يعرف بأنه 'المياه الحرة في حفرة مفتوحة أو بئر في وقت الملاحظة`). ويوفر الجدول المائي معلومات عن بيئة جذر النبات غير المواتية بدرجة كبيرة ويحد ماديا من نمو جذور النباتات نزولا. كما يمكن إستخدام المعلومات في نماذج هيدرولوجيا التربة، وميزنة المياه، والرشح، وتحميل المغذيات/مبيدات الآفات. في هذا المسح، حدد هذا التفسير موقع وعمق طبقة التربة المشبعة. وبشكل عام، يرتبط حدوث مناسيب المياه الضحلة إرتباطا وثيقا بتوزيع التربة المالحة وبوجه خاص المياه الجوفية. وتشكل إدارة المياه الضحلة مشكلة صعبة بالنسبة لأنظمة الدخل المنخفض، لا سيما عندما يكون منسوب المياه الجوفية شديد الملوحة كما يحدث في معظم الأحيان في أبو ظبي. إستخدام القيود يجب إستخدام البيانات بشكل مناسب لجدول التعيين. وقبل إتخاذ قرارات بشأن إستخدام الأراضي، من المرجح أن تكون هناك حاجة إلى إجراء تفتيش أكثر تفصيلا للمواقع من أجل التوصل إلى فهم مفصل لخصائص التربة والموقع المتعلقة بالاستخدام المخطط له. تم إنشاؤه من قبل وكالة البيئة في أبو ظبي كجزء من مشروع مسح التربة في أبو ظبي. أصل البيانات:EAD.",
+                "productID":"e0765c9f-9101-4b9e-99d2-2b6a7012fdfc",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/LandResources/MapServer/3"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Coral Reef",
+                "description":"This dataset represents Coral Reef Habitat derived through Satellite Image processing. Coral Reef Status: Critical Habitat within Abu Dhabi emirate. Location: This habitat type is mainly found in shallow water surrounding the islands of Abu Dhabi emirate. One stand is found in the east at Khalifa Port, while larger areas of coral reef are found around the islands of the western region. This includes Abu Al Abyadh, Bu Tinah, Mubarraz, as well as the islands within the Al Yasat Marine Protected Area. Species diversity increases across a west-east gradient. Description: The corals of the Arabian Gulf are a unique community, existing in an environment with stressors including extreme fluctuations in water temperature and high salinity. There are 44 coral species listed as either Near Threatened or Vulnerable with either decreasing or unknown population trends on the IUCN Red list for the UAE. Predominant species include the Boulder coral (Porites spp), and Branching coral (Acropora coral). Corals form critical habitat for many species including reef dwelling fish species and the critically endangered Hawksbill Turtle. Unfortunately, with all the pressures they face less than half the coral reefs in the waters of Abu Dhabi contain living corals, the total estimated area of corals in Abu Dhabi emirate being estimated at 310.66 km2.",
+                "productID":"3a16b189-3fd4-48ad-bf29-c90571862192",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"شعاب مرجانية",
+                "description":"تمثل مجموعة البيانات هذه موطن الشعاب المرجانية المستمدة من معالجة صور الأقمار الصناعية. حالة الشعاب المرجانية: موطن حرج داخل إمارة أبوظبي. الموقع: يوجد هذا النوع من الموائل بشكل أساسي في المياه الضحلة المحيطة بجزر إمارة أبوظبي. يوجد جناح في الشرق في ميناء خليفة ، بينما توجد مساحات أكبر من الشعاب المرجانية حول جزر المنطقة الغربية. ويشمل ذلك أبو الأبيض ، وبو طينة ، والمبرز ، وكذلك الجزر داخل محمية الياسات البحرية. يزيد تنوع الأنواع عبر التدرج بين الغرب والشرق. الوصف: الشعاب المرجانية في الخليج العربي هي مجتمع فريد من نوعه ، موجود في بيئة بها ضغوط بما في ذلك التقلبات الشديدة في درجة حرارة المياه والملوحة العالية. هناك 44 نوعًا من الشعاب المرجانية مدرجة على أنها قريبة من التهديد أو معرضة للخطر مع اتجاهات سكانية متناقصة أو غير معروفة في القائمة الحمراء للاتحاد الدولي لحفظ الطبيعة في الإمارات العربية المتحدة. تشمل الأنواع السائدة مرجان بولدر (Porites spp) ، والمرجان المتفرّع (Acropora coral). تشكل الشعاب المرجانية موطنًا حرجًا للعديد من الأنواع بما في ذلك أنواع الأسماك التي تعيش في الشعاب المرجانية وسلاحف منقار الصقر المهددة بالانقراض. لسوء الحظ ، مع كل الضغوط التي يواجهونها أقل من نصف الشعاب المرجانية في مياه أبوظبي تحتوي على الشعاب المرجانية الحية ، ويقدر إجمالي المساحة المقدرة للشعاب المرجانية في إمارة أبوظبي بـ 310.66 كيلومتر مربع",
+                "productID":"3a16b189-3fd4-48ad-bf29-c90571862192",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/CriticalHabitats/MapServer/0"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

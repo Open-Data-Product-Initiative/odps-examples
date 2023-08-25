@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Quarterly current GDP (production approach)",
+                "description":"GDP measures the monetary value of final goods and services—that is, those that are bought by the final user—produced in a country in a given period of time (say a quarter or a year). It counts all of the output generated within the borders of a country.To determine “real” GDP, its nominal value must be adjusted to take into account price changes to allow us to see whether the value of output has gone up because more is being produced or simply because prices have increased. A statistical tool called the price deflator is used to adjust GDP from nominal to constant prices.",
+                "productID":"3b69a1f4-67da-47e2-be91-44a399f7bf05",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"الناتج المحلي الإجمالي ربع السنوي الحالي (الإنتاج)",
+                "description":"يقيس الناتج المحلي الإجمالي القيمة النقدية للسلع والخدمات النهائية - أي تلك التي اشتراها المستخدم النهائي - المنتجة في بلد ما في فترة زمنية معينة (على سبيل المثال ربع أو سنة). يحسب كل الناتج الناتج داخل حدود بلد ما. لتحديد إجمالي الناتج المحلي "الحقيقي" ، يجب تعديل قيمته الاسمية لتأخذ في الاعتبار تغيرات الأسعار للسماح لنا بمعرفة ما إذا كانت قيمة الناتج قد ارتفعت لأن المزيد يجري أنتجت أو ببساطة لأن الأسعار قد ارتفعت. يتم استخدام أداة إحصائية تسمى معامل انكماش السعر لتعديل الناتج المحلي الإجمالي من الأسعار الاسمية إلى الأسعار الثابتة.",
+                "productID":"3b69a1f4-67da-47e2-be91-44a399f7bf05",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["http://data.bayanat.ae/ar/dataset/0af2bf6d-818c-489d-a051-e4186a64f2ce/resource/246cec4d-f9fb-4ab5-8101-21ff972da47d/download/quarterly-current-gdp-2012-2018-ds.xlsx", "http://data.bayanat.ae/en_GB/api/1/util/snippet/api_info.html?resource_id=246cec4d-f9fb-4ab5-8101-21ff972da47d&amp;datastore_root_url=http%3A%2F%2Fdata.bayanat.ae%2Fapi%2Faction"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Federal competitiveness and statistics authority",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

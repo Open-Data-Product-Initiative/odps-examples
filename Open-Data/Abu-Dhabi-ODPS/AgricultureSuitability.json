@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Agriculture Suitability",
+                "description":"This layer representing the Agriculture Suitability is a derived dataset from the Abu Dhabi Soil Survey Project 2009. Soil interpretation for Irrigated Agriculture evaluates the soils suitability for development of irrigated agriculture in the Emirate of Abu Dhabi. This interpretation of the extensive survey information identified the most suitable 1,000,000ha of land in the Emirate. From the million hectares, 400,000ha was further selected for a semi-detailed soil survey at 1:25,000. Criteria used were: Hard pan or rock depth (cm); Water table depth (cm); Salinity (dS/m) weighted average for 0 to 50cm; Salinity (dS/m) weighted average for 50 to 100cm; Gypsum depth to upper boundary of gypsic diagnostic horizon (cm); Texture for surface 0 to 25cm layer;Slope gradient (%); and relief (m). Current land use was not considered in the interpretation. Use limitations The data must be used appropriately for the scale of mapping. Prior to decisions about land use more detailed site inspection is likely to be required to develop detailed understanding of Soil and site characteristics related to the planned use. Created by Environment Agency Abu Dhabi as part of the Abu Dhabi Soil Survey project 2009. Data Origin:EAD",
+                "productID":"e5d41159-77c0-482d-b790-7574166e9889",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"موارد التربة",
+                "description":"هذه الطبقة التي تمثل موارد التربة هي مجموعة بيانات مشتقة من مشروع مسح التربة في أبو ظبي لعام 2009. ويقيم تفسير التربة للزراعة المروية ملاءمة التربة لتطوير الزراعة المروية في إمارة أبوظبي. حدد هذا التفسير لمعلومات المسح الشامل أنسب 1،000،000 هكتار من الأراضي في الإمارة. من مليون هكتار ، تم اختيار 400000 هكتار لإجراء مسح شبه مفصل للتربة عند 1: 25000. المعايير المستخدمة هي: المقلاة الصلبة أو عمق الصخور (سم) ؛ عمق سطح الماء (سم) ؛ الملوحة (dS / م) المتوسط ​​المرجح من 0 إلى 50 سم ؛ الملوحة (dS / م) المتوسط ​​المرجح لـ 50 إلى 100 سم ؛ عمق الجبس حتى الحد الأعلى لأفق التشخيص الجبسي (سم) ؛ نسيج للطبقة السطحية من 0 إلى 25 سم ؛ الانحدار (٪) ؛ والإغاثة (م). لم يتم النظر في استخدام الأراضي الحالي في التفسير. قيود الاستخدام يجب استخدام البيانات بشكل مناسب لمقياس رسم الخرائط. قبل اتخاذ قرارات بشأن استخدام الأراضي ، من المحتمل أن تكون هناك حاجة لمزيد من التفتيش التفصيلي للموقع لتطوير فهم مفصل لخصائص التربة والموقع المتعلقة بالاستخدام المخطط. تم إنشاؤه بواسطة هيئة البيئة - أبوظبي كجزء من مشروع مسح التربة في أبوظبي 2009",
+                "productID":"e5d41159-77c0-482d-b790-7574166e9889",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/LandResources/MapServer/1"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

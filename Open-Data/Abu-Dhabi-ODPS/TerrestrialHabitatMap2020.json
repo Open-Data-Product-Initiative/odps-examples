@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Terrestrial Habitat Map 2020",
+                "description":"Satellite derived habitat mapping of terrestrial areas. Input satellite imagery was Digital Globe WorldView-2 and 3, 8-band, 2 metre multi-spectral, 0.5 metre panchromatic. Automated and semi-automated image processing techniques were used, along with cartographic generalisation principles, local ground truthing and ecological knowledge. Within the terrestrial classification Minimum Mapping Units (MMUs) varied from 1 hectare to 5 hectares resulting in greater details. The area of each feature is provided in hectares and kilometres squared. Areas were calculated using UTM39N and UTM40N. The terrestrial habitat classification was based on the Major Terrestrial Natural and Semi-Natural Habitat Types of Abu Dhabi Emirate, Brown and Boer (2004).",
+                "productID":"ba8cda38-e6db-45f4-8e9a-acf599096814",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"خريطة الموئل الأرضي 2020",
+                "description":"رسم خرائط للموئل المستمدة من السواتل للمناطق الأرضية. وكانت الصور الملتقطة بالساتل هي Digital Globe View-2 و 3، و 8 نطاقات، و 2 أمتار متعددة الأطياف، و 0.5 متر بانكروماتية. واستخدمت تقنيات معالجة الصور الآلية وشبه الآلية، إلى جانب مبادئ تعميم رسم الخرائط، والتصديق المحلي على الأرض، والمعارف الإيكولوجية. وفي إطار التصنيف الأرضي، تنوعت وحدات رسم الخرائط الدنيا من هكتار واحد إلى خمسة هكتارات، مما أدى إلى زيادة التفاصيل. وتوجد مساحة كل سمة في مساحة من الهكتارات تبلغ كيلومترا مربعا. تم حساب المناطق باستخدام UTM39N و UTM40N. وقد استند تصنيف الموئل الأرضي إلى أهم أنواع الموائل الطبيعية وشبه الطبيعية في إمارة أبو ظبي، براون وبوير (2004).",
+                "productID":"ba8cda38-e6db-45f4-8e9a-acf599096814",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["http://data.abudhabi/sites/default/files/uploaded_resources/Terrestrial%20Habitat%20Map%202020.xlsx"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

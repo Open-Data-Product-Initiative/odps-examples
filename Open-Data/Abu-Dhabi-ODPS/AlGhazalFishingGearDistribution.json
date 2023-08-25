@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Al Ghazal Fishing Gear Distribution",
+                "description":"The spatial distribution of Al Ghazal fishing gear used in Abu Dhabi Emirate. Al Ghazal is an encircling gill net used to catch large pelagic fish. On moonless night, fishermen actively scout the sea water surface on bioluminescence manifestations which indicates the presence of pelagic fish schools. Once encountered, fishermen set out the net in an L-shaped manner and the warp line is towed to close the net around the school of fish. The net hangs vertical as a wall but does not necessarily touch the sea bottom. Going inside the enclosure the fishermen make a lot of noise to chase the fish into the net. Al Ghazal is regulated and only tarad fishermen operate this fishing gear from October to April. Data originates from Abu Dhabi commercial fisheries statistics stored in the National Fisheries Information System (NFIS), 2010-2012. Enumerators interview fishermen on their fishing trip whereabouts, utilizing a marine grid with spatial units measuring approx. 18 by 18 km. This allowed to pinpoint the actual fishing grounds for the Al Ghazal fishing gear more accurately. The total sample size was 2,238 records obtained from Delma, Al Sadar, Al Marfa, Free Port, Saadiyat and Al Bateen landing sites.",
+                "productID":"e7d9a768-60be-4e0e-bcad-39c646c66276",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"شركة الغزال لتوزيع معدات الصيد",
+                "description":"التوزيع المكاني لمعدات صيد الغزال المستخدمة في إمارة أبوظبي. الغزال عبارة عن شبكة. خيشومية مطوقة تستخدم لصيد أسماك السطح الكبيرة. في الليل غير المقمر، يقوم الصيادون بنشاط باستكشاف سطح مياه البحر بحثًا عن مظاهر التلألؤ الحيوي التي تشير إلى وجود مدارس أسماك السطح. بمجرد مصادفتهم، يضع الصيادون الشبكة على شكل حرف L ويتم سحب خط الالتواء لإغلاق الشبكة حول مدرسة الأسماك. وتتدلى الشبكة عموديًا. كجدار ولكنها لا تلامس بالضرورة قاع البحر. يدخل الصيادون داخل السياج الكثير من الضوضاء لمطاردة الأسماك في الشبكة. الغزال خاضع للتنظيم ويقوم صيادو الطراد فقط بتشغيل معدات الصيد هذه من أكتوبر إلى أبريل البيانات مستمدة من إحصاءات مصايد الأسماك التجارية في أبو ظبي المخزنة في النظام الوطني لمعلومات المصايد 2010 -2012 (NFIS) يقوم العدادون بإجراء مقابلات مع الصيادين في أماكن تواجدهم في رحلة الصيد، وذلك باستخدام شبكة بحرية بوحدات مكانية تقيس. 18 × 18 كم سمح ذلك بتحديد مناطق الصيد الفعلية لمعدات صيد الغزال بدقة أكبر. بلغ الحجم الإجمالي للعينة 2238 سجلاً تم الحصول عليها من مواقع إنزال دلما والصدر والمرفأ والميناء الحر والسعديات والبطين.",
+                "productID":"e7d9a768-60be-4e0e-bcad-39c646c66276",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/Fisheries/MapServer/3"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

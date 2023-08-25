@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Total Area and Quantity of agricultural production in open fields by type and agricultural centers in Abu Dhabi Region 2021",
+                "description":"355-Total Area and Quantity of agricultural production in open fields by type and agricultural centers in Abu Dhabi Region 2021",
+                "productID":"62e32c67-4c6e-4525-beb8-5a5721671981",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"اجمالي مساحة و كمية الإنتاج الزراعي في الحقول المكشوفة بحسب الصنف وبحسب المراكز الزراعية في منطقة أبوظبي 2021",
+                "description":"355-اجمالي مساحة و كمية الإنتاج الزراعي في الحقول المكشوفة بحسب الصنف وبحسب المراكز الزراعىة في منطقة أبوظبي 2021",
+                "productID":"62e32c67-4c6e-4525-beb8-5a5721671981",
+                "visibility":"عام",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["http://data.abudhabi/sites/default/files/uploaded_resources/355-%20Total%20Area%20and%20quantity%20of%20agricultural%20production%20in%20open%20fields%20by%20type%20and%20agricultural%20centers%20in%20Abu%20Dhabi%20Region%202021.csv", "http://data.abudhabi/sites/default/files/uploaded_resources/355-%20%D8%A7%D8%AC%D9%85%D8%A7%D9%84%D9%8A%20%D9%85%D8%B3%D8%A7%D8%AD%D8%A9%20%D9%88%D9%83%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D9%82%D9%88%D9%84%20%D8%A7%D9%84%D9%85%D9%83%D8%B4%D9%88%D9%81%D8%A9%20%D8%A8%D8%AD%D8%B3%D8%A8%20%D8%A7%D9%84%D8%B5%D9%86%D9%81%20%D9%88%D8%A8%D8%AD%D8%B3%D8%A8%20%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2%20%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9%20%D9%81%D9%8A%20%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A%202021.csv"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Abu Dhabi Agriculture and Food Safety Authority",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"maryam.alshehhi@adafsa.gov.ae"
+        }
+    }
+}

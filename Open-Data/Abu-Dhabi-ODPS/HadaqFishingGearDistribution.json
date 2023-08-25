@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Hadaq Fishing Gear Distribution",
+                "description":"The spatial distribution of Hadaq fishing gear used in Abu Dhabi Emirate. Hadaq or hook &amp; line is a versatile fishing gear used by either tarad or lansh fishermen alike. There are many different methods falling under Hadaq, like Lafaah (trolling), Mehayah (big hook), Shab (2-4 smaller hooks on same line), etc. Hadaq is the most simple fishing gear, which is unregulated and often used in combination with other gear types. Data originates from Abu Dhabi commercial fisheries statistics stored in the National Fisheries Information System (NFIS), 2010-2012. Enumerators interview fishermen on their fishing trip whereabouts, utilizing a marine grid with spatial units measuring approx. 18 by 18 km. This allowed to pinpoint the actual fishing grounds for the Hadaq fishing gear more accurately. The total sample size was 2,787 records obtained from Delma, Al Sadar, Al Marfa, Free Port, Saadiyat and Al Bateen landing sites.",
+                "productID":"413c8d84-d81f-42cf-9b65-0043a1368d4f",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"توزيع معدات صيد الحداق",
+                "description":"التوزيع المكاني لمعدات صيد الحداق المستخدمة في إمارة أبوظبي. خيط السنارة او الحداق عبارة عن معدات صيد متعددة الاستخدامات يستخدمها صيادو الطراد أو اللانش على حد سواء. هناك العديد من الطرق المختلفة التي تندرج تحت الحداق. مثل لفاء (التصيد)، محاية (خطاف كبير)، شاب (2-4 خطاطيف أصغر على نفس الخط)، إلخ. مع أنواع العتاد الأخرى. البيانات مستمدة من إحصاءات مصايد الأسماك التجارية في أبو ظبي المخزنة في النظام الوطني لمعلومات المصايد . 2010- 2012 (NFIS) يقوم العدادون بإجراء مقابلات مع الصيادين في أماكن تواجدهم في رحلة الصيد، وذلك باستخدام شبكة بحرية بوحدات مكانية تقيس 18 × 18 كم. سمح ذلك بتحديد مناطق الصيد الفعلية لمعدات صيد الحداق بدقة أكبر. بلغ حجم العينة الإجمالي 2787 سجل تم الحصول عليها من مواقع إنزال دلما والصدر والمرفأ والميناء الحر والسعديات والبطين.",
+                "productID":"413c8d84-d81f-42cf-9b65-0043a1368d4f",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/Fisheries/MapServer/6"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Mass wedding participants by income range and emirate",
+                "description":"The distripution of Mass wedding beneficiaries by monthly income range (less than or equal to 10000) - (10001-15000)-(15001-20000)-(20001-25000)- more than 50000 . Emirate ( Abu Dhabi,Al Ain, Dubai, Sharjah, Ajman, Umm al Quwain, Ras Al Khaimah, Fujaira), year From 2013 till 2020 N/A the data is not available; the beneficiries didn’t add the income amount.",
+                "productID":"fd4e5802-5e68-4547-a43b-79680db04485",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"المستفيدين من خدمة الاعراس الجماعية حسب الدخل الشهري والإمارة المجتمع",
+                "description":""تستعرض البيانات أعداد المستفيدين من الأعراس الجماعية حسب فئات الدخل الشهري (أقل او يساوي 10000) - (10001-15000)-(15001-20000)-(20001-25000) أكثر من 50000.و الامارة (أبوظبي -العين - دبي - الشارقة - عجمان - أم القيوين - رأس الخيمة - الفجيرة ) و السنه للفتره من 2013 حتى 2020 N/A أو NULL البيانات غير متوفرة ، لم يتم إدخال بيانات الدخل من قبل المستفيد"",
+                "productID":"fd4e5802-5e68-4547-a43b-79680db04485",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["http://data.bayanat.ae/ar/dataset/e37a10a9-79af-4e49-90ff-0aa9208738ad/resource/c1911f4e-6246-4a47-a494-a1d5204b5bd1/download/mass-wedding-participants-by-income-range-emirate-2013-2020.xlsx", "http://data.bayanat.ae/en_GB/api/1/util/snippet/api_info.html?resource_id=c1911f4e-6246-4a47-a494-a1d5204b5bd1&amp;datastore_root_url=http%3A%2F%2Fdata.bayanat.ae%2Fapi%2Faction"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Ministry of Community Development",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

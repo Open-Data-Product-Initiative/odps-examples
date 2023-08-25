@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Coastal Sabkha",
+                "description":"This dataset represents Coastal Sabkha derived through Satellite Image processing. Status: Environmentally Sensitive within Abu Dhabi emirate. Location: The distribution of this habitat type can be found from the Western Region with the border of Abu Dhabi and Saudi Arabia, where it follows the coast to the Abu Dhabi / Dubai border. The largest, most continuous area of this habitat is found from Abu Dhabi city mainland, to Mirfa, however, other large expanses of this habitat type can also be found in the far Western Region, near the border with Saudi Arabia. Description: Coastal sabkha is salt-encrusted desert close to the coast covering wide expanses. It is devoid of vegetation due to the high salinity of the substrate. Halophytes, however, may occur where there is a thin carpeting of sand on the surface. Abu Dhabi’s coastal sabkha are some of the best documented in the world, with the sabkha south of Al Dabbi’ya and Abu Al Abyadh Islands, the only complete sabkha in the world that represents the four main distinctive layers of sabkha, together in one site. While not a traditional Blue Carbon ecosystem, historic soil carbon stocks in Coastal sabkha are likely to have a Blue Carbon origin. When these ecosystems are destroyed, buried carbon can be released into the atmosphere, which subsequently contributes to global warming.",
+                "productID":"56dae23a-378d-427e-8f69-5caf4cbe594b",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"السبخة الساحلية",
+                "description":"تمثل مجموعة البيانات هذه السبخة الساحلية المستمدة من معالجة صور الأقمار الصناعية. الحالة: حساسة بيئياً داخل إمارة أبوظبي. الموقع: يمكن العثور على توزيع هذا النوع من الموائل من المنطقة الغربية على حدود أبو ظبي والمملكة العربية السعودية ، حيث يتبع الساحل إلى حدود أبو ظبي / دبي. توجد المنطقة الأكبر والأكثر استمرارًا في هذا الموطن من البر الرئيسي لمدينة أبوظبي إلى المرفأ ، ومع ذلك ، يمكن أيضًا العثور على مساحات كبيرة أخرى من هذا النوع من الموائل في المنطقة الغربية البعيدة ، بالقرب من الحدود مع المملكة العربية السعودية. وصف: السبخة الساحلية هي عبارة عن صحراء مغطاة بالملح قريبة من الساحل تغطي مساحات شاسعة. وهي خالية من الغطاء النباتي بسبب ارتفاع ملوحة الطبقة السفلية. ومع ذلك ، قد تظهر النباتات الملحية في الأماكن التي يوجد بها سجاد رقيق من الرمال على السطح. تعتبر السبخة الساحلية في أبوظبي من أفضل السبخات الموثقة في العالم ، حيث تعتبر السبخة الواقعة جنوب ضبية وجزيرة أبو الأبيض ، السبخة الكاملة الوحيدة في العالم التي تمثل الطبقات الأربعة المميزة الرئيسية للسبخة ، معًا في موقع واحد . في حين أنه ليس نظامًا بيئيًا تقليديًا للكربون الأزرق ، فمن المحتمل أن يكون لمخزونات الكربون التاريخية في التربة في السبخة الساحلية أصل الكربون الأزرق. عندما يتم تدمير هذه النظم البيئية ، يمكن إطلاق الكربون المدفون في الغلاف الجوي ، مما يساهم لاحقًا في ظاهرة الاحتباس الحراري",
+                "productID":"56dae23a-378d-427e-8f69-5caf4cbe594b",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/EnvironmentallySensitiveHabitats/MapServer/1"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

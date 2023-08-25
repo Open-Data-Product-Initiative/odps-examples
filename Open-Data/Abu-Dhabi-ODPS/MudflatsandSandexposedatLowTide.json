@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Mudflats and Sand exposed at LowTide",
+                "description":"This dataset represents Mudflats and sands exposed at low tide derived through Satellite Image processing. Status: Critical coastal habitat within Abu Dhabi emirate. Location: Widespread along most of the mainland coast and islands of Abu Dhabi. Description: Coastal wetlands that form when mud is deposited by tides. These are often devoid of vegetation but can also be found with less than 10% vegetation cover. No plants, with the exception of one species of seagrass, Halodule uninervis, which can be exposed at low tide (usually sparse). No growing macroalgae (broken-off pieces can be present). This is an important habitat for wading birds, especially migratory species in the plover and sandpiper families, which feed on benthic invertebrates. Herons (mainly Striated Heron and Western Reef Heron) feed on tidal flats at low tide.",
+                "productID":"faef60b7-acd1-44a5-8b37-80d9a0371298",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"السهول الطينية والرمال مكشوفة عند انخفاض المد",
+                "description":"تمثل مجموعة البيانات هذه السهول الطينية والرمال المكشوفة عند انخفاض المد والمشتقة من خلال معالجة صور الأقمار الصناعية. الحالة: موطن ساحلي حرج داخل إمارة أبوظبي. الموقع: منتشر على طول معظم ساحل وجزر أبوظبي. الوصف: الأراضي الرطبة الساحلية التي تتكون عندما يترسب الطين بفعل المد والجزر. غالبًا ما تكون خالية من الغطاء النباتي ولكن يمكن العثور عليها أيضًا مع غطاء نباتي أقل من 10 ٪. لا توجد نباتات ، باستثناء نوع واحد من الأعشاب البحرية ، Halodule uninervis ، والتي يمكن أن تتعرض عند انخفاض المد (عادة ما تكون متفرقة). لا تنمو الطحالب الكبيرة (يمكن أن توجد قطع مكسورة). هذا موطن مهم للطيور الخواضة ، وخاصة الأنواع المهاجرة في فصيلة الزقزاق وطيور الرمل التي تتغذى على اللافقاريات القاعية. يتغذى مالك الحزين (بشكل رئيسي مالك الحزين المخطوب ومالك الحزين الغربي) على مسطحات المد والجزر عند انخفاض المد",
+                "productID":"faef60b7-acd1-44a5-8b37-80d9a0371298",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/CriticalHabitats/MapServer/11"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

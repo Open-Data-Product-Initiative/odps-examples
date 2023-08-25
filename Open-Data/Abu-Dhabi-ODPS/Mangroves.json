@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Mangroves",
+                "description":"This dataset represents Mangroves in Abu Dhabi derived through Satellite Image processing. Status: Critical Habitat within Abu Dhabi emirate. Location: Within Abu Dhabi emirate, the distribution of this habitat type from east to west is from near Khalifa Port, with higher densities of this habitat around the islands to the east and west of Abu Dhabi Island. Mangrove habitats are also found along the coast heading westward, with a gradual decline in density. This habitat is also found in intertidal areas on islands such as Abu Al Abyadh, Marawah, Bu Tinah and Sir Bani Yas. Description: This habitat consists of inter-tidal areas dominated by the Grey Mangrove (Avicennia marina), and includes both natural and planted mangrove sites. It is a critical habitat for many bird, and fish species, acting as a nursery for the juvenile fish, as well as providing other ecosystem services such as coastal protection and aesthetic value. The mangrove root systems stabilise the underlying sediment, which is rich in nutrients from decaying leaves and wood, and home to sponges, worms, crustaceans, molluscs and algae. The habitat is home to small crabs; fish species; and bird species operating on the periphery of the mangroves including the migratory Greater Flamingo (Phoenicopterus roseus). Mangroves are considered a “Blue Carbon” habitat type because it is a coastal and marine habitat that is able to sequester and store carbon",
+                "productID":"2b8ebc39-649b-4085-911e-ff909a865589",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"أشجار القرم",
+                "description":"تمثل مجموعة البيانات هذه أشجار القرم في أبو ظبي المستمدة من معالجة صور الأقمار الصناعية. الحالة: موطن حرج داخل إمارة أبوظبي. الموقع: داخل إمارة أبوظبي ، يتم توزيع هذا النوع من الموائل من الشرق إلى الغرب بالقرب من ميناء خليفة ، مع كثافة أعلى لهذا الموطن حول الجزر إلى شرق وغرب جزيرة أبوظبي. توجد موائل المنغروف أيضًا على طول الساحل المتجه غربًا ، مع انخفاض تدريجي في الكثافة. توجد هذه الموطن أيضًا في مناطق المد والجزر في جزر مثل أبو الأبيض ومروة وبو طينة وصير بني ياس. الوصف: يتكون هذا الموطن من مناطق المد والجزر التي يسيطر عليها غراي مانغروف (Avicennia marina) ، وتشمل مواقع المنغروف الطبيعية والمزروعة. وهي موطن حرج للعديد من أنواع الطيور والأسماك ، حيث تعمل كحضانة للأسماك الصغيرة ، فضلاً عن توفير خدمات النظم البيئية الأخرى مثل حماية السواحل والقيمة الجمالية. تعمل أنظمة جذر المنغروف على تثبيت الرواسب الكامنة ، وهي غنية بالمواد المغذية من الأوراق والخشب المتحللة ، وهي موطن للإسفنج والديدان والقشريات والرخويات والطحالب. الموطن موطن لسرطانات صغيرة. أنواع الأسماك؛ وأنواع الطيور التي تعمل على أطراف غابات المانغروف بما في ذلك طائر الفلامنغو الكبير المهاجر (Phoenicopterus roseus). تعتبر أشجار المانغروف من أنواع الموائل "الكربونية الزرقاء" لأنها موطن ساحلي وبحري قادر على عزل وتخزين الكربون",
+                "productID":"2b8ebc39-649b-4085-911e-ff909a865589",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/CriticalHabitats/MapServer/2"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

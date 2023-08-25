@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Annual Arabic language courses for None Arabic Speaker Program Clients",
+                "description":"The dataset represents the number of customers who joined the Arabic Language for Non-Arabic Speakers Program during the years from 2016 to 2019 and is disaggregated by date of birth, educational level, marital status and gender.",
+                "productID":"c510005b-dce6-4166-93d8-79d863ce5063",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"متعاملي برنامج اللغة العربية للناطقين بغيرها السنوي",
+                "description":"تمثل مجموعة البيانات أعداد المتعاملين الذين انتسبوا لبرنامج اللغة العربية للناطقين بغيرها خلال الأعوام من 2016 إلى 2019 و مصنفة حسب تاريخ الميلاد و المستوى التعليمي و الحالة الإجتماعية و الجنس.",
+                "productID":"c510005b-dce6-4166-93d8-79d863ce5063",
+                "visibility":"عام",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://data.abudhabi/sites/default/files/OSD_004_Annual_Arabic_Program_Clients2016%20V0.2.csv", "https://data.abudhabi/api/action/datastore/search.json?resource_id=09abe6b1-8f41-428d-a3ff-544eb65a79f0", "https://data.abudhabi/sites/default/files/OSD_004_Annual_Arabic_Program_Clients2017%20V0.2.csv", "https://data.abudhabi/api/action/datastore/search.json?resource_id=5d4cf10c-36f8-49ff-961a-ba1ce6fef161", "https://data.abudhabi/sites/default/files/OSD_004_Annual_Arabic_Program_Clients2018%20V0.2.csv", "https://data.abudhabi/api/action/datastore/search.json?resource_id=aaad8cc8-077d-4586-beeb-f36fe5b9c74c", "https://data.abudhabi/sites/default/files/OSD_004_Annual_Arabic_Program_Clients2019%20V0.2.csv"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Zayed House For Islamic Culture",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}

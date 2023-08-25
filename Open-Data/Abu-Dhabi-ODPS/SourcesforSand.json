@@ -1,0 +1,82 @@
+{
+  "product":{
+        "en":{
+                "name":"Sources for Sand",
+                "description":"This layer representing the Sources for Sand is a derived dataset from the Abu Dhabi Soil Survey Project 2009. Soil interpretation for sand source evaluates the proportion of soils in each map unit that meet the criteria for being a ‘sand source’. Present land use is not considered in the ratings. The intent of this assessment is to show only the probability of finding high quality material in suitable quantities. While there appears to be widespread distribution of suitable sand sources in the Emirate, it should be recognized that very generic criteria have been used to categorize these sources. Use limitations The data must be used appropriately for the scale of mapping. Prior to decisions about land use more detailed site inspection is likely to be required to develop detailed understanding of soil and site characteristics related to the planned use. Created by Environment Agency Abu Dhabi as part of the Abu Dhabi Soil Survey project.",
+                "productID":"1183cd4a-aff6-4639-bb50-25d9bf09e4c9",
+                "visibility":"public",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+         },
+         "ar":{
+                "name":"مصادر الرمال",
+                "description":"هذه الطبقة التي تمثل مصادر الرمال هي مجموعة بيانات مشتقة من مشروع مسح التربة بأبوظبي 2009. يقوم تفسير التربة لمصدر الرمال بتقييم نسبة التربة في كل وحدة خريطة تفي بالمعايير لكونها "مصدر رمال". لا يتم أخذ استخدام الأراضي الحالي في الاعتبار في التصنيفات. القصد من هذا التقييم هو إظهار احتمال العثور على مواد عالية الجودة بكميات مناسبة فقط. بينما يبدو أن هناك توزيعًا واسع النطاق لمصادر الرمال المناسبة في الإمارة ، يجب إدراك أنه تم استخدام معايير عامة جدًا لتصنيف هذه المصادر. قيود الاستخدام يجب استخدام البيانات بشكل مناسب لمقياس رسم الخرائط. قبل اتخاذ قرارات بشأن استخدام الأراضي ، من المحتمل أن تكون هناك حاجة إلى مزيد من التفتيش التفصيلي للموقع لتطوير فهم مفصل للتربة وخصائص الموقع المتعلقة بالاستخدام المخطط. تم إنشاؤه بواسطة هيئة البيئة - أبوظبي كجزء من مشروع مسح التربة في أبوظبي",
+                "productID":"1183cd4a-aff6-4639-bb50-25d9bf09e4c9",
+                "visibility":"",
+                "status":"production",
+                "type":"dcat:Dataset",
+                "version":""
+        },
+        "pricingPlans": {
+           "en": [
+                    {
+                        "name": "Free usage Open Data",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ],
+           "ar": [
+                    {
+                        "name": "استخدام مجاني للبيانات المفتوحة",
+                        "priceCurrency": "AED",
+                        "price": "0.00",
+                        "billingDuration": "instant",
+                        "unit": "Open-data",
+                        "maxTransactionQuantity": "0"
+                    }
+                ]
+        },
+        "dataAccess":{
+            "interface":{
+                "outputPorttype":"URL",
+                "authenticationMethod":"None",
+                "x-files":["https://enviroportal.ead.ae/server/rest/services/Enviroportal/LandResources/MapServer/7"]
+            }
+        },
+        "license":{
+            "scope":{
+                "language":"en-us",
+                "definition":"You are encouraged to use the Information that is available under this license with only a few conditions. Use of any information indicates your acceptance of the terms below. The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive license to use the Information, including for commercial purposes, subject to the terms below.",
+                "restrictions":"Acknowledge the source of the information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this license. If the Information Provider does not provide a specific attribution statement, or if you are using information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under this license. The terms of this license are important, and if you fail to comply with any of them, the rights granted to you under this license, or any similar license granted by the Information Provider, will end automatically. This license does not grant you any right to use: Personal Information, Third-party rights that the Information Provider is not authorized to license, The names, crests, logos, or other official symbols of the Information Provider, Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement: This license does not grant you any right to use the information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information.",
+                "geographicalArea":[
+                    "Global"
+                    ],
+                 "exclusive":false,
+                 "rights":[
+                    "Reproduction",
+                    "Display",
+                    "Distribution",
+                    "Adaptation",
+                    "Reselling"
+                  ]
+             },
+             "governance":{
+                "warranties": "The information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law. The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this license or the Information, even if specifically advised of the possibility of such loss, injury or damage.",
+                "applicableLaws": "This license is governed by the Abu Dhabi Government Open Data Policy (v1.0), in addition to the other relevant laws issued by the UAE Government and the Abu Dhabi Government."
+             }
+        },
+        "dataHolder":{
+            "legalName":"Environment Agency Abu Dhabi",
+            "businessId":"",
+            "addressRegion":"Abu Dhabi",
+            "addressLocality":"Abu Dhabi",
+            "addressCountry":"United Arab Emirates",
+            "URL":"https://data.abudhabi/opendata/",
+            "email":"noemailprovided@adda.gov.ae"
+        }
+    }
+}
