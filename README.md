@@ -7,13 +7,13 @@ Adopting Examples are for the latest release (2.1)
 ### Ultra-violet Index (UVI) MVP with license url extension (Singapore)
 
 
-Link: 
+[Link to example](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/uv-index-api-singapore-mvp.md)
 
 
 ### Ultra-violet Index (UVI) with built-in licensing model and additional attributes (Singapore)
 
 
-Link: 
+[Link to example](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/uv-index-api-singapore.md)
 
 ### Wind power production - real time data product with x-license extension (Finland) - Multilang example 
 
