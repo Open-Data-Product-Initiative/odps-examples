@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2019-09/schema",
-	"$id": "https://github.com/Open-Data-Product-Initiative/odps-v2.1-json-schemas.json",
+	"$id": "https://github.com/Open-Data-Product-Initiative/odps-examples/odps-examples-odps-v2.1-json-schemas.json",
 	"type": "object",
 	"default": {},
 	"title": "product",
