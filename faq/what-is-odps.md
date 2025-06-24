@@ -20,7 +20,7 @@ ODPS does for data products what OpenAPI does for APIs.
 
 ## Quick example
 
-Here’s a simple ODPS product definition:
+Here’s a simple ODPS product definition (just [YAML](yaml/minimal.yml)):
 
 ```yaml
 schema: https://opendataproducts.org/v3.1/schema/odps.yaml
