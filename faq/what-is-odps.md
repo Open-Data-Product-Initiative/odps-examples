@@ -43,4 +43,4 @@ ODPS is a **Linux Foundation open standard**, with active adoption across the pu
 
 You can learn more and join the community at [opendataproducts.org](https://opendataproducts.org/).
 
-[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/readme.md)
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
