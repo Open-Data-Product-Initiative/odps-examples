@@ -1,4 +1,5 @@
-# 💡 Open Data Product Specification (ODPS) – FAQ and Example Index
+# 💡 Open Data Product Specification (ODPS) 
+### FAQ and Example Index
 
 This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
 
