@@ -9,6 +9,10 @@ This repository helps you understand and apply the [ODPS specification](https://
 
 ---
 
+## What if I can not find what I was looking for?
+
+If you can not find what you are looking for, [raise an issue and describe the need](https://github.com/Open-Data-Product-Initiative/odps-examples/issues). 
+
 ## 📘 Core Concepts
 
 - [What is ODPS, and why should I use it?](faq/what-is-odps.md)  
