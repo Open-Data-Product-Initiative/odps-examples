@@ -5,7 +5,7 @@ This repository helps you understand and apply the [ODPS specification](https://
 
 - Explanation of the concept  
 - Code snippets ([just plain YAML](faq/yaml)) 
-- Full ODPS YAML example (`.yaml`) alongside the markdown answer  
+- ODPS YAML examples (`.yml`) alongside the markdown answer  
 
 ---
 
