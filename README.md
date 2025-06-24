@@ -4,8 +4,8 @@
 This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
 
 - Explanation of the concept  
-- Code snippets  
-- Full ODPS YAML example (`.yaml`) alongside the markdown answer  
+- Code snippets ([just plain YAML](faq/yaml)) 
+- ODPS YAML examples (`.yml`) alongside the markdown answer  
 
 ---
 

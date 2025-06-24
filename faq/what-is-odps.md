@@ -20,7 +20,7 @@ ODPS does for data products what OpenAPI does for APIs.
 
 ## Quick example
 
-Here’s a simple ODPS product definition:
+Here’s a simple ODPS product definition (just [YAML](yaml/minimal.yml)):
 
 ```yaml
 schema: https://opendataproducts.org/v3.1/schema/odps.yaml
@@ -42,3 +42,5 @@ This is just the start. You can add pricing, data access methods, contracts, and
 ODPS is a **Linux Foundation open standard**, with active adoption across the public sector, platforms, and enterprises. It is maintained by an open community and led by **Dr. Jarkko Moilanen**, its original author, and **Manfred Sorg**.
 
 You can learn more and join the community at [opendataproducts.org](https://opendataproducts.org/).
+
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
