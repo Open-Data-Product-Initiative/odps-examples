@@ -146,3 +146,5 @@ This makes the product self-contained and ready for publication or sale.
 ---
 
 ➡️ **[View the full example YAML file here](yaml/full-example.yml)**
+
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
