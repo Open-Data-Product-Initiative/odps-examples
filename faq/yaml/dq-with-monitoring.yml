@@ -1,0 +1,95 @@
+schema: https://opendataproducts.org/v4.0/schema/odps.yaml
+version: 4.0
+
+product:
+  details:
+    en:
+      name: City Bike Stations
+      productID: citybike-stations-001
+      description: Public data about station locations and availability in real-time.
+      visibility: public
+      status: draft
+      type: dataset
+  dataQuality:
+    declarative:
+      default:
+        displaytitle:
+          en: The Complete Quality Profile
+        description:
+          en: Declares expectations for all eight data quality dimensions
+        dimensions:
+          - dimension: accuracy
+            displaytitle:
+              en: Data Accuracy (percent)
+            objective: 90
+            unit: percentage
+
+          - dimension: completeness
+            displaytitle:
+              en: Data Completeness (percent)
+            objective: 90
+            unit: percentage
+
+          - dimension: conformity
+            displaytitle:
+              en: Data Conformity (percent)
+            objective: 92
+            unit: percentage
+
+          - dimension: consistency
+            displaytitle:
+              en: Data Consistency (percent)
+            objective: 95
+            unit: percentage
+
+          - dimension: coverage
+            displaytitle:
+              en: Data Coverage (percent)
+            objective: 88
+            unit: percentage
+
+          - dimension: timeliness
+            displaytitle:
+              en: Data Timeliness (percent)
+            objective: 93
+            unit: percentage
+
+          - dimension: validity
+            displaytitle:
+              en: Data Validity (percent)
+            objective: 91
+            unit: percentage
+
+          - dimension: uniqueness
+            displaytitle:
+              en: Data Uniqueness (percent)
+            objective: 100
+            unit: percentage
+
+    executable:
+      - dimension: accuracy
+        type: SodaCL
+        reference: https://docs.soda.io/soda-cl/soda-cl-overview.html
+        spec:
+          - checks for dataset:
+              - duplicate_count(id) = 0
+
+      - dimension: completeness
+        type: DQOps
+        version: 1.6.0
+        reference: https://dqops.com/docs/dqo-concepts/running-data-quality-checks/
+        spec:
+          columns:
+            email:
+              profiling_checks:
+                nulls:
+                  profile_nulls_percent:
+                    error:
+                      max_percent: 10.0
+
+      - dimension: uniqueness
+        type: SodaCL
+        reference: https://docs.soda.io/soda-cl/soda-cl-overview.html
+        spec:
+          - checks for dataset:
+              - duplicate_count(user_id) = 0
