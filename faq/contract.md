@@ -67,3 +67,5 @@ Use `contractURL` to point to managed contracts.
 Use `spec` for inline definitions when external services are unavailable or impractical.
 
 👉 You can find the [full example YAML here](yaml/contract.yml)
+
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
