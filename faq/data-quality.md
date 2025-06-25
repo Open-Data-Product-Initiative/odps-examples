@@ -10,12 +10,13 @@ In the ODPS YAML, the `dataQuality` section holds the rules. Here's the starting
 
 ```yaml
 dataQuality:
-  default:
-    displaytitle:
-      en: Complete Data Quality Set
-    description:
-      en: Includes all defined data quality dimensions.
-    dimensions:
+  declarative:
+    default:
+        displaytitle:
+        en: Complete Data Quality Set
+        description:
+        en: Includes all defined data quality dimensions.
+        dimensions:
 ```
 
 Each quality **dimension** is then defined with a name, description, and an objective value. For example:
