@@ -104,65 +104,66 @@ product:
         \  success_url: 'https://your-platform.com/success',\n  cancel_url: 'https://your-platform.com/cancel'\n\
         });\n"
 dataQuality:
-  default:
-    displaytitle:
-      en: Complete Data Quality Set
-    description:
-      en: Includes all defined data quality dimensions.
-    dimensions:
-    - dimension: accuracy
+  declarative:
+    default:
       displaytitle:
-        en: Data Accuracy
+        en: Complete Data Quality Set
       description:
-        en: How well the data reflects the real-world entities or events it represents.
-      objective: 95
-      unit: percent
-    - dimension: completeness
-      displaytitle:
-        en: Data Completeness
-      description:
-        en: Whether all required data attributes are present.
-      objective: 90
-      unit: percent
-    - dimension: conformity
-      displaytitle:
-        en: Data Conformity
-      description:
-        en: Whether the data conforms to syntax and domain standards.
-      objective: 92
-      unit: percent
-    - dimension: consistency
-      displaytitle:
-        en: Data Consistency
-      description:
-        en: Whether data remains consistent across data stores.
-      objective: 90
-      unit: percent
-    - dimension: coverage
-      displaytitle:
-        en: Data Coverage
-      description:
-        en: Extent and availability of data records in the dataset.
-      objective: 85
-      unit: percent
-    - dimension: timeliness
-      displaytitle:
-        en: Data Timeliness
-      description:
-        en: How up-to-date and available the data is for use.
-      objective: 93
-      unit: percent
-    - dimension: validity
-      displaytitle:
-        en: Data Validity
-      description:
-        en: Extent to which data correctly represents the real-world concept.
-      objective: 96
-      unit: percent
-    - dimension: uniqueness
-      displaytitle:
-        en: Data Uniqueness
-      description:
-        en: How well each record and attribute are unique in the dataset.
-      objective: 98
-      unit: percent
+        en: Includes all defined data quality dimensions.
+      dimensions:
+      - dimension: accuracy
+        displaytitle:
+          en: Data Accuracy
+        description:
+          en: How well the data reflects the real-world entities or events it represents.
+        objective: 95
+        unit: percent
+      - dimension: completeness
+        displaytitle:
+          en: Data Completeness
+        description:
+          en: Whether all required data attributes are present.
+        objective: 90
+        unit: percent
+      - dimension: conformity
+        displaytitle:
+          en: Data Conformity
+        description:
+          en: Whether the data conforms to syntax and domain standards.
+        objective: 92
+        unit: percent
+      - dimension: consistency
+        displaytitle:
+          en: Data Consistency
+        description:
+          en: Whether data remains consistent across data stores.
+        objective: 90
+        unit: percent
+      - dimension: coverage
+        displaytitle:
+          en: Data Coverage
+        description:
+          en: Extent and availability of data records in the dataset.
+        objective: 85
+        unit: percent
+      - dimension: timeliness
+        displaytitle:
+          en: Data Timeliness
+        description:
+          en: How up-to-date and available the data is for use.
+        objective: 93
+        unit: percent
+      - dimension: validity
+        displaytitle:
+          en: Data Validity
+        description:
+          en: Extent to which data correctly represents the real-world concept.
+        objective: 96
+        unit: percent
+      - dimension: uniqueness
+        displaytitle:
+          en: Data Uniqueness
+        description:
+          en: How well each record and attribute are unique in the dataset.
+        objective: 98
+        unit: percent
