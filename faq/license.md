@@ -53,3 +53,5 @@ license:
       audit: Data Holder will cooperate with reasonable audit requests. Each party bears its own costs.
       forceMajeure: Obligations may be suspended due to uncontrollable events like strikes, wars, or natural disasters.
 ```
+
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
