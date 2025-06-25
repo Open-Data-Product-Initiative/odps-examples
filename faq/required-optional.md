@@ -55,4 +55,4 @@ This structure is the **minimum required** to produce a valid ODPS YAML file. Al
 | → `visibility`           | ✅       |
 
 
-👉 [Download the minimal ODPS YAML used in this example](yaml/minimal)
+👉 [Download the minimal ODPS YAML used in this example](yaml/minimal.yml)
