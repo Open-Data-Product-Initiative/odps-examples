@@ -11,18 +11,29 @@ In ODPS (Open Data Product Specification), this is supported under the `pricingP
 
 ```yaml
 pricingPlans:
-  free:
     declarative:
       en:
-        planName: Free Tier
-        description: Basic access with limited API calls
-        price: 0
-  pro:
-    declarative:
-      en:
-        planName: Pro Tier
-        description: Full access with support and SLA
-        price: 99
+        - name: Basic Reader
+          priceCurrency: USD
+          price: 0
+          billingDuration: month
+          unit: recurring
+          maxTransactionQuantity: 100
+          offering:
+            - Standard access to event metadata
+            - Up to 100 SQL queries per month
+            - Shared SLA (best-effort availability)
+            - No prioritization in case of peaks
+        - name: High Volume Access
+            priceCurrency: USD
+            price: 2000
+            billingDuration: month
+            unit: recurring
+            maxTransactionQuantity: 500000
+            offering:
+              - Dedicated API channel for bulk usage
+              - 'Up to 500,000 SQL queries per month'
+              - Guaranteed SLA for availability and response time
 ```
 
 This model is scalable and allows pricing to evolve over time based on usage patterns and demand.
