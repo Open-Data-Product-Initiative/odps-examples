@@ -1,0 +1,49 @@
+schema: https://opendataproducts.org/v4.0/schema/odps.yaml
+version: 4.0
+product:
+  contract:
+    id: 02323M123  
+    type:  ODCS 
+    contractVersion:  2.2.2
+    contractURL: https://demo.datamesh-manager.com/demo834016807886/dataproducts/9bd53b1b-b51e-41a8-a757-4d33b4cde460
+  details: 
+    en:
+      name: Pets of the year
+      productID: 123456are
+      valueProposition: Design a customised petstore using a data product that describes
+        pets with their habits, preferences and characteristics.
+      description: This is an example of a Petstore product.
+      productSeries: Lovely pets data products
+      visibility: private
+      status: draft
+      productVersion: '0.1.0'
+      versionNotes: New version with additional details such more accurate pet details
+      issues: The current issues include incorrect information in the dog breeds. The
+        resolution for these problems is planned for the next     update, scheduled
+        to be released on July 15th, 2023.
+      categories:
+      - pets
+      standards:
+      - ISO 24631-6
+      tags:
+      - pet
+      brandSlogan: Passion for the data monetization
+      type: dataset
+      contentSample: https://download.com/pets.json
+      logoURL: https://data-product-business.github.io/open-data-product-spec/images/logo-dps-ebd5a97d.png
+      OutputFileFormats:
+      - JSON
+      - XML
+      - CSV
+      - ZIP
+      - PDF
+      useCases:
+      - useCase:
+          useCaseTitle: Build attractive and lucrative petstore!
+          useCaseDescription: Use case description how succesfull petstore chain was
+            established in Abu Dhabi
+          useCaseURL: https://marketplace.com/usecase1
+      recommendedDataProducts:
+      - https://marketplace.com/dataproduct.json
+      - https://marketplace.com/dataproduct-another.json
+
