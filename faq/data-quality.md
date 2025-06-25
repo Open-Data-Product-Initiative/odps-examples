@@ -64,3 +64,5 @@ This makes the `default` DQ package available to any pricing plan or product con
 ODPS helps shift quality from abstract claims to measurable commitments. This supports trust, comparisons, and automation.
 
 👉 [Download the full ODPS YAML used in this example](yaml/dq.yml)
+
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
