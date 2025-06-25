@@ -33,6 +33,18 @@ Each quality **dimension** is then defined with a name, description, and an obje
 
 This means the data product should maintain **95% accuracy**.
 
+**The Role of `default`**
+
+The `default` quality profile is **mandatory** whenever the `dataQuality` object is used. It acts as the **baseline** definition, ensuring there is always a clear and predictable quality configuration, even when no referencing is used.
+
+You should use the `default` profile when:
+
+- You want to describe core quality expectations for the product.
+- You don’t yet need pricing or SLA-specific variations.
+- You want to ensure future compatibility with advanced features such as AI agents, data marketplaces, or automated governance.
+
+This makes the `default` profile both a **minimum requirement** and a **best practice** for clarity and interoperability.
+
 ## What kind of dimensions can I use?
 
 Here are some dimensions defined in the example:
