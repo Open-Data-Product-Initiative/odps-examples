@@ -6,6 +6,7 @@ product:
     en:
       name: City Bike Stations
       productID: citybike-stations-001
-      valueProposition: Real-time bike station data for smarter travel apps.
       description: Public data about station locations and availability in real-time.
       visibility: public
+      status: draft
+      type: dataset
