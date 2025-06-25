@@ -22,7 +22,8 @@ If you can not find what you are looking for, [raise an issue and describe the n
 - [What is ODPS, and why should I use it?](faq/what-is-odps.md)  
 - [What does a complete ODPS-compliant product look like?](faq/full-example.md)  
 - [What are the required and optional sections in ODPS?](faq/required-optional.md)  
-- [How do I define metadata for my data product?](faq/define-metadata.md)  
+- [How do I define metadata for my data product?](faq/define-metadata.md)
+- [How do I define related products and use cases?](faq/define-related.md)  
 
 ---
 
