@@ -72,4 +72,4 @@ If you can not find what you are looking for, [raise an issue and describe the n
 
 ---
 
-📂 Each FAQ answer is located in the `/faq` folder, and includes a related `.yaml` file in the `/examples` folder with the same name. Contributions welcome.
+📂 Each FAQ answer is located in the `/faq` folder, and includes a related `.yaml` file in the `yaml` folder. Contributions welcome.
