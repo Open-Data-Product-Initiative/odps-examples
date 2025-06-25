@@ -23,17 +23,18 @@ ODPS does for data products what OpenAPI does for APIs.
 Here’s a simple ODPS product definition (just [YAML](yaml/minimal.yml)):
 
 ```yaml
-schema: https://opendataproducts.org/v3.1/schema/odps.yaml
-version: 3.1
+schema: https://opendataproducts.org/v4.0/schema/odps.yaml
+version: 4.0
 
 product:
   details:
     en:
       name: City Bike Stations
       productID: citybike-stations-001
-      valueProposition: Real-time bike station data for smarter travel apps.
       description: Public data about station locations and availability in real-time.
       visibility: public
+      status: draft
+      type: dataset
 ```
 This is just the start. You can add pricing, data access methods, contracts, and much more.
 
