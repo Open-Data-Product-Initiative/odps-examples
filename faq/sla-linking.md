@@ -4,24 +4,46 @@ In ODPS v4.0, **Service Level Agreements (SLAs)** can be assigned to specific pr
 
 ---
 
+## SLA can be defined with 11 standardized dimensions
+
+| SLA Dimension  | Description | 
+|---|---|
+| **latency** | minimal amount of time before getting any response. |
+| **uptime** | Uptime is a measure of system reliability, expressed as the percentage of time a machine, typically a computer, has been working and available. See more https://uptime.is/. |
+| **responseTime** | amount of time to process external request. |
+| **errorRate** | Maximum tolerated errors in data, percentage. |
+| **endOfSupport** | The date at which your product will not have support anymore. |
+| **endOfLife** | The date at which your product will not be available anymore. No support, no access. |
+| **updateFrequency** | how often data is updates. |
+| **timeToDetect** | How fast can you detect a problem? |
+| **timeToNotify** | Once you see a problem, how much time do you need to notify your users? |
+| **timeToRepair** | How long do you need to fix the issue once it is detected? |
+| **emailResponseTime** | How long do you need to respond to email support requests? |
+
+
+--- 
+
 ## Step-by-Step Guide
 
 ### 1. Define SLA Packages
 
 Declare the SLA packages under the `SLA` object using unique keys like `default` and `premium`.
 
+- `objective` Target level to be achieved for the dimension (e.g., 99).
+- `unit` Measurement unit for the SLA objective. If "date" is used, format should be dd/mm/yyyy.
+
 ```yaml
 SLA:
   declarative:
     default:
         name:
-        en: The Basic SLA
+            en: The Basic SLA
         description:
-        en: The basic SLA package
+            en: The basic SLA package
         dimensions:
         - dimension: uptime
             displaytitle:
-            en: Uptime
+                en: Uptime
             objective: 90
             unit: percent
         - dimension: responseTime
@@ -33,13 +55,13 @@ SLA:
 
     premium:
         name:
-        en: The Premium SLA
+            en: The Premium SLA
         description:
-        en: The Premium SLA package
+            en: The Premium SLA package
         dimensions:
         - dimension: uptime
             displaytitle:
-            en: Uptime
+                en: Uptime
             objective: 99
             unit: percent
         - dimension: responseTime
