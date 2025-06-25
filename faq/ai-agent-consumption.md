@@ -8,11 +8,11 @@ ODPS organizes metadata in a standardized YAML format, enabling AI agents to int
 
 ### Referencing and Reusability
 
-Modular components (e.g., dataAccess, license, dataQuality, pricingPlans) can be reused and referenced. AI agents can follow these links to build a complete picture of a product’s structure and obligations [1].
+Modular components (e.g., dataAccess, license, dataQuality, pricingPlans) can be reused and referenced. AI agents can follow these links to build a complete picture of a product’s structure and obligations.
 
 ### Alignment with MCP (Model Context Protocol)
 
-ODPS complements MCP, which allows AI agents to dynamically explore, query, and consume data products. ODPS provides the "what" (declaration), while MCP handles the "how" (runtime interaction) [1].
+ODPS complements MCP, which allows AI agents to dynamically explore, query, and consume data products. ODPS provides the "what" (declaration), while MCP handles the "how" (runtime interaction).
 
 ### Support for AI-Native Experiences
 
@@ -52,3 +52,4 @@ According to Moilanen et al., ODPS enables the entire AI agent lifecycle—from 
 
 In short, ODPS + MCP creates the foundation for an AI-native data economy.
 
+[BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
