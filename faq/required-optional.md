@@ -37,22 +37,6 @@ product:
 
 ---
 
-## Minimal Valid ODPS YAML
-
-```yaml
-schema: https://opendataproducts.org/v4.0/schema/odps.yaml
-version: 4.0
-
-product:
-  details:
-    en:
-      name: City Bike Stations
-      productID: citybike-stations-001
-      valueProposition: Real-time bike station data for smarter travel apps.
-      description: Public data about station locations and availability in real-time.
-      visibility: public
-```
-
 This structure is the **minimum required** to produce a valid ODPS YAML file. All other aspects are optional. 
 
 ---
