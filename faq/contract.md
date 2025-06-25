@@ -4,7 +4,7 @@ Defining a contract in ODPS ensures clarity about the agreement between the data
 
 ---
 
-## 🧩 Structure of the contract element
+## Structure of the contract element
 
 The contract is defined under the `product` section using the following fields:
 
