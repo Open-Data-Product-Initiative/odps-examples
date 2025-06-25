@@ -30,36 +30,6 @@ product:
             objective: 90
             unit: percentage
 
-          - dimension: conformity
-            displaytitle:
-              en: Data Conformity (percent)
-            objective: 92
-            unit: percentage
-
-          - dimension: consistency
-            displaytitle:
-              en: Data Consistency (percent)
-            objective: 95
-            unit: percentage
-
-          - dimension: coverage
-            displaytitle:
-              en: Data Coverage (percent)
-            objective: 88
-            unit: percentage
-
-          - dimension: timeliness
-            displaytitle:
-              en: Data Timeliness (percent)
-            objective: 93
-            unit: percentage
-
-          - dimension: validity
-            displaytitle:
-              en: Data Validity (percent)
-            objective: 91
-            unit: percentage
-
           - dimension: uniqueness
             displaytitle:
               en: Data Uniqueness (percent)
