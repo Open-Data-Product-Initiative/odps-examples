@@ -5,7 +5,7 @@ This guide explains how to validate your Open Data Product Specification (ODPS) 
 
 ---
 
-## 1. 🔍 Validate YAML Syntax
+## 1. Validate YAML Syntax
 
 Before ODPS-specific validation, ensure the file is valid YAML:
 
