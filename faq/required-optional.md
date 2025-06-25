@@ -41,21 +41,5 @@ product:
 
 This structure is the **minimum required** to produce a valid ODPS YAML file. All other aspects are optional. 
 
----
-
-## Summary
-
-| Section                  | Required |
-|--------------------------|----------|
-| `schema`                 | ✅       |
-| `version`                | ✅       |
-| `product.details.en`     | ✅       |
-| → `name`                 | ✅       |
-| → `productID`            | ✅       |
-| → `description`          | ✅       |
-| → `visibility`           | ✅       |
-| → `type`                 | ✅       |
-| → `status`               | ✅       |
-
 
 👉 [Download the minimal ODPS YAML used in this example](yaml/minimal.yml)
