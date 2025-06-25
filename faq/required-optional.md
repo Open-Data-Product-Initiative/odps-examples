@@ -17,9 +17,10 @@ product:
     en:
       name: City Bike Stations
       productID: citybike-stations-001
-      valueProposition: Real-time bike station data for smarter travel apps.
       description: Public data about station locations and availability in real-time.
       visibility: public
+      status: draft
+      type: dataset
 ```
 
 ### Required Elements:
@@ -27,13 +28,14 @@ product:
 | Field                 | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
 | `schema`              | Points to the official ODPS schema version being used.                     |
-| `version`             | Declares the version of the ODPS document (not schema).                    |
+| `version`             | Declares the version of the ODPS.                    |
 | `product.details.en`  | At least one language block (`en`, `fi`, `ar`, etc.) is mandatory.         |
 | → `name`              | The name of the data product.                                               |
 | → `productID`         | A unique, machine-readable identifier.                                     |
-| → `valueProposition`  | The business or functional value for the consumer.                          |
 | → `description`       | Human-readable explanation of the data product.                            |
-| → `visibility`        | Visibility level: `public`, `internal`, or `restricted`.                   |
+| → `visibility`        | Visibility level: private, invitation, organisation, dataspace, public     |
+| → `type`              | The type of the product. Options are derived from examples and lists found from academic literature.     |
+| → `status`            | The status of the product: announcement, draft, development, testing, acceptance, production, sunset, retired     |
 
 ---
 
@@ -50,9 +52,10 @@ This structure is the **minimum required** to produce a valid ODPS YAML file. Al
 | `product.details.en`     | ✅       |
 | → `name`                 | ✅       |
 | → `productID`            | ✅       |
-| → `valueProposition`     | ✅       |
 | → `description`          | ✅       |
 | → `visibility`           | ✅       |
+| → `type`                 | ✅       |
+| → `status`               | ✅       |
 
 
 👉 [Download the minimal ODPS YAML used in this example](yaml/minimal.yml)
