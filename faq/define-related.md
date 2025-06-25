@@ -13,10 +13,8 @@ Each use case explains **how the data product is used in practice**. This is use
 ```yaml
 useCases:
   - useCase:
-      useCaseTitle: 
-        en: Build attractive and lucrative petstore!
-      useCaseDescription: 
-        en: Use case description how successful petstore chain was established in Abu Dhabi
+      useCaseTitle: Build attractive and lucrative petstore!
+      useCaseDescription: Use case description how successful petstore chain was established in Abu Dhabi
       useCaseURL: https://marketplace.com/usecase1
 ```
 
