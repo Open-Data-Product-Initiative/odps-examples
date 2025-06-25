@@ -50,6 +50,6 @@ AI consumers rely on data reliability. ODPS v4 supports:
 According to Moilanen et al., ODPS enables the entire AI agent lifecycle—from discovery and evaluation through purchase, onboarding, and continuous monitoring—without human involvement. Features like metadata clarity, contractability, pricing-as-code, DQ/SLA enforcement, and even consumption tracking are all supported
 
 
-In short, ODPS + MCP creates the foundation for an AI-native data economy.
+ODPS v4 transforms data products into AI-native assets—fully composable, discoverable, contractable, and monitorable for agent consumption. Its modular design ensures agents can autonomously negotiate access, pay, run quality checks, enforce SLAs, and onboard in a consistent, low-touch way.
 
 [BACK TO INDEX](https://github.com/Open-Data-Product-Initiative/odps-examples/blob/main/README.md)
