@@ -2,6 +2,8 @@
 
 In ODPS v4.0, **Service Level Agreements (SLAs)** can be assigned to specific pricing plans by referencing named SLA packages. This modular design helps define different levels of availability, response time, and data refresh frequency — directly tied to the chosen pricing tier.
 
+Even if the Pricing Plans are not used, an SLA can still be defined for the Product using the SLA object. In that case, using `default` option is mandatory. It acts as the fallback or baseline SLA profile. 
+
 ---
 
 ## SLA can be defined with 11 standardized dimensions
