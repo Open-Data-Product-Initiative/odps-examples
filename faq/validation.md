@@ -35,7 +35,7 @@ schema: https://opendataproducts.org/v3.1/schema/odps.yaml
 ```
 Or for ODPS v4:
 ```yaml
-schema: https://opendataproducts.org/4.0/odps.yaml
+schema: https://opendataproducts.org/v4.0/schema/odps.yaml
 ```
 
 ### Validation Tools
