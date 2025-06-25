@@ -1,11 +1,6 @@
-schema: 'https://opendataproducts.org/v3.1/schema/odps.yaml'
-version: 3.1
+schema: 'https://opendataproducts.org/v4.0/schema/odps.yaml'
+version: 4.0
 product:
-  contract:
-    id: 02323M123
-    type: ODCS
-    contractVersion: 2.2.2
-    contractURL: 'https://datamesh-manager.com/urbanltd/dataproducts/9bd530'
   details:
     en:
       name: UrbanPulse Events
@@ -30,18 +25,6 @@ product:
         Current limitations include manual ingestion of some event sources and
         partial metadata for smaller events. These will be addressed in the next
         update with automated feeds and metadata enrichment.
-      categories:
-        - city-events
-        - tourism
-        - smartcity
-      standards:
-        - ODPS 3.1
-      tags:
-        - smartcity
-        - events
-        - tourism
-        - public-data
-      brandSlogan: Turning City Buzz into Business Value
       type: dataset
   pricingPlans:
     declarative:
@@ -82,14 +65,7 @@ product:
           notes: >-
             Shadow pricing estimate based on infrastructure and operational cost
             models.
-          paymentGateway:
-            $ref: '#/paymentGateways/default'
-          dataQuality:
-            $ref: '#/dataQuality/default'
-          SLA:
-            $ref: '#/SLA/default'
-          access:
-            $ref: '#/dataAccess/API'
+          
         - name: High Volume Access
           priceCurrency: USD
           price: 2000
