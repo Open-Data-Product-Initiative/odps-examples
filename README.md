@@ -68,7 +68,6 @@ If you can not find what you are looking for, [raise an issue and describe the n
 
 - [How do I validate an ODPS YAML file?](faq/validation.md)  
 - [Are there templates I can use to start faster?](faq/templates.md)  
-- [Which tools or platforms support ODPS today?](faq/tools-support.md)
 
 ---
 
