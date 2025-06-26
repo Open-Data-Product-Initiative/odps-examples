@@ -61,7 +61,6 @@ If you can not find what you are looking for, [raise an issue and describe the n
 ## 🤖 AI & Automation
 
 - [How does ODPS support AI agent consumption?](faq/ai-agent-consumption.md)  
-- [What is MCP and how is it used in ODPS?](faq/mcp.md)
 
 ---
 
