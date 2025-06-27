@@ -28,6 +28,39 @@ SLA:
 
 You are pointing *inside* your current YAML file. No external files involved.
 
+```mermaid
+classDiagram
+
+class Product {
+  +pricingPlans
+  +SLA
+}
+
+class PricingPlans {
+  +declarative
+}
+
+class DeclarativePlan {
+  +name: Basic Plan
+  +SLA --> SLARef
+}
+
+class SLA {
+  +declarative
+}
+
+class SLAProfile {
+  +name: Basic SLA
+}
+
+Product --> PricingPlans : includes
+PricingPlans --> DeclarativePlan : has
+DeclarativePlan --> SLARef : references
+SLARef --> SLAProfile : resolvesTo
+Product --> SLA : includes
+SLA --> SLAProfile : has
+```
+
 ---
 
 ## External reference
