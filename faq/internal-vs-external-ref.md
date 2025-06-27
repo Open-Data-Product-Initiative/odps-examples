@@ -70,8 +70,18 @@ An **external reference** means you point to a *whole object that is defined in 
 Example:
 
 ```yaml
-SLA:
-  $ref: 'https://example.com/shared-sla.yaml'
+schema: https://opendataproducts.org/v4.0/schema/odps.yaml
+version: 4.0
+product:
+  contract:
+    id: 02323M123  
+    type:  ODCS 
+    contractVersion:  2.2.2
+    contractURL: https://demo.datamesh-manager.com/demo834016807886/dataproducts/9bd53b1b-b51e-41a8-a757-4d33b4cde460
+  
+  SLA:
+    $ref: 'https://example.com/shared-sla.yaml'
+  ...
 ```
 
 ✅ The SLA **object itself** is pulled from an external YAML file.  
