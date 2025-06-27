@@ -180,7 +180,7 @@ dataQuality:
   $ref: 'https://example.com/dq-definitions.yaml'
 
 paymentGateways:
-  $ref: 'https://example.com/gateways.yamlt'
+  $ref: 'https://example.com/gateways.yaml'
 
 dataAccess:
   $ref: 'https://example.com/access.yaml'
