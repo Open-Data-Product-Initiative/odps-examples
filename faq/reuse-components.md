@@ -125,7 +125,27 @@ PaymentGateway_Ref --> paymentGateways : resolvesTo
 - Version your SLA and DQ definitions if terms evolve over time
 
 
+## 📂 Can I define shared components externally?
 
+Yes! You can also place `SLA`, `dataQuality`, `paymentGateways`, and `dataAccess` definitions in **external YAML files**.
+
+Example:
+
+```yaml
+SLA:
+  $ref: 'https://example.com/sla-packages.yaml'
+
+dataQuality:
+  $ref: 'https://example.com/dq-definitions.yaml'
+
+paymentGateways:
+  $ref: 'https://example.com/gateways.yamlt'
+
+dataAccess:
+  $ref: 'https://example.com/access.yaml'
+```
+
+This enables true modular reuse across multiple products and teams. Just ensure the external schema files are accessible at read time and follow the ODPS object structure.
 
 
 
