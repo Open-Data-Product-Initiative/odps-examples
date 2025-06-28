@@ -9,24 +9,37 @@ The Open Data Product Specification (ODPS) is a vendor-neutral, open-source, mac
 **Discourse Server for collaboration**
 Join our community forum to ask questions, share ideas, and collaborate on Open Data Product Specification (ODPS) adoption.
 
+- [See more](#odps-discourse-server)
+
 **FAQ with examples**
 Access a growing knowledge base of frequently asked questions, with practical YAML examples to help you apply ODPS effectively.
+
+- [See more](#faq-and-resource-index)
 
 **Udemy MasterClasses**
 Learn from structured courses covering data product monetization, governance, AI readiness, and more — designed for all levels.
 
+- [See more](#udemy-masterclasses)
+
 **Data Product Toolkit (PDF canvases)**
 Download free canvases (CC-BY) to design, measure, and manage data products using proven frameworks like the Data Product Canvas 2.1 and Blueprint Model.
 
+- [See more](#data-product-toolkit)
+
+## What if I can not find what I was looking for?
+
+If you can not find what you are looking for, [raise an issue and describe the need](https://github.com/Open-Data-Product-Initiative/odps-examples/issues). 
+
+
 ---
 
-## ODPS Discourse Server
+# ODPS Discourse Server
 
 The ODPS Discourse Server is an online community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS). It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
 
 ---
 
-## Udemy MasterClasses 
+# Udemy MasterClasses 
 
 If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
 
@@ -40,20 +53,17 @@ If you're looking to apply ODPS in real-world business scenarios, including **mo
 
 ---
 
-## Data Product Toolkit
+# Data Product Toolkit
 
 The Data Product Toolkit is a free, open set of canvases designed to help teams design, measure, and manage data products effectively. It includes practical frameworks like the Data Product Canvas 2.1, Value Measure Framework, Blueprint Model, and more — all licensed under CC-BY. The toolkit guides you through defining use cases, aligning business value, and ensuring governance and scalability for successful data product development 
 
 [Get your copy](./resources/Data_Product_Toolkit.pdf)
 
 
-### What if I can not find what I was looking for?
-
-If you can not find what you are looking for, [raise an issue and describe the need](https://github.com/Open-Data-Product-Initiative/odps-examples/issues). 
 
 ---
 
-## FAQ and Resource Index
+# FAQ and Resource Index
 
 This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
 
