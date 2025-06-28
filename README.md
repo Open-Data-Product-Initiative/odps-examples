@@ -1,6 +1,6 @@
 ![header image](resources/header.png)
 
-# 💡 Open Data Product Specification (ODPS) 
+# ODPS Knowledge Hub
 
 ## ODPS Support Resources
 
