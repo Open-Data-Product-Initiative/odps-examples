@@ -2,7 +2,7 @@
 
 # ODPS Knowledge Base
 
-## ODPS Support Resources
+## Your ODPS Toolbox — Courses, Canvases, Community
 
 The Open Data Product Specification (ODPS) is a vendor-neutral, open-source, machine-readable metadata model for defining and managing data products in a consistent, interoperable way. Backed by the Linux Foundation, ODPS helps organizations build data products that align business value, governance, and technical delivery
 
