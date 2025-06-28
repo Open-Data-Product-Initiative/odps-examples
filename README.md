@@ -9,7 +9,22 @@ This repository helps you understand and apply the [ODPS specification](https://
 - Code snippets ([just plain YAML](faq/yaml)) 
 - ODPS YAML examples (`.yml`) alongside the markdown answer  
 
+
+**Want to go beyond the basics?**  
+
+If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
+
+- **[Data Product Monetization MasterClass](https://www.udemy.com/course/data-product-monetization-masterclass/)**  
+  Learn how to turn ODPS-based data products into scalable revenue streams, including machine-readable pricing, AI agent monetization, and shadow pricing templates. Includes a complete Monetization Toolkit.
+
+- **[Data Product MasterClass](https://www.udemy.com/course/data-product-mindset/)**  
+  Adopt the data product mindset with practical frameworks, blueprints, and actionable strategies that build on ODPS concepts. Features real-world examples, and AI-powered narration.
+
+👉 *Both courses are designed to complement this knowledge base—helping you move from learning the spec to delivering business impact.*
+
 ---
+
+
 
 ## What if I can not find what I was looking for?
 
