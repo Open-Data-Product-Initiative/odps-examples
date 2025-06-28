@@ -1,7 +1,7 @@
-![header image](random/header.png)
+![header image](resources/header.png)
 
 # 💡 Open Data Product Specification (ODPS) 
-### FAQ and Example Index
+### FAQ and Resource Index
 
 This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
 
@@ -10,7 +10,7 @@ This repository helps you understand and apply the [ODPS specification](https://
 - ODPS YAML examples (`.yml`) alongside the markdown answer  
 
 
-**Want to go beyond the basics?**  
+### Want to go beyond the basics?###  
 
 If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
 
@@ -24,6 +24,11 @@ If you're looking to apply ODPS in real-world business scenarios, including **mo
 
 ---
 
+### Data Product Toolkit
+
+The Data Product Toolkit is a free, open set of canvases designed to help teams design, measure, and manage data products effectively. It includes practical frameworks like the Data Product Canvas 2.1, Value Measure Framework, Blueprint Model, and more — all licensed under CC-BY. The toolkit guides you through defining use cases, aligning business value, and ensuring governance and scalability for successful data product development 
+
+[Get your copy](./resources/Data_Product_Toolkit.pdf)
 
 
 ## What if I can not find what I was looking for?
