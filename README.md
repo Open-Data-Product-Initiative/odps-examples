@@ -1,16 +1,30 @@
 ![header image](resources/header.png)
 
 # 💡 Open Data Product Specification (ODPS) 
-### FAQ and Resource Index
 
-This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
+## ODPS Support Resources
 
-- Explanation of the concept  
-- Code snippets ([just plain YAML](faq/yaml)) 
-- ODPS YAML examples (`.yml`) alongside the markdown answer  
+The Open Data Product Specification (ODPS) is a vendor-neutral, open-source, machine-readable metadata model for defining and managing data products in a consistent, interoperable way. Backed by the Linux Foundation, ODPS helps organizations build data products that align business value, governance, and technical delivery
 
+**Discourse Server for collaboration**
+Join our community forum to ask questions, share ideas, and collaborate on Open Data Product Specification (ODPS) adoption.
 
-### Want to go beyond the basics?###  
+**FAQ with examples**
+Access a growing knowledge base of frequently asked questions, with practical YAML examples to help you apply ODPS effectively.
+
+**Udemy MasterClasses**
+Learn from structured courses covering data product monetization, governance, AI readiness, and more — designed for all levels.
+
+**Data Product Toolkit (PDF canvases)**
+Download free canvases (CC-BY) to design, measure, and manage data products using proven frameworks like the Data Product Canvas 2.1 and Blueprint Model.
+
+---
+
+### ODPS Discourse Server
+
+The ODPS Discourse Server is an online community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS). It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
+
+### Udemy MasterClasses 
 
 If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
 
@@ -36,6 +50,14 @@ The Data Product Toolkit is a free, open set of canvases designed to help teams 
 If you can not find what you are looking for, [raise an issue and describe the need](https://github.com/Open-Data-Product-Initiative/odps-examples/issues). 
 
 ---
+
+## FAQ and Resource Index
+
+This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
+
+- Explanation of the concept  
+- Code snippets ([just plain YAML](faq/yaml)) 
+- ODPS YAML examples (`.yml`) alongside the markdown answer  
 
 ## 📘 Core Concepts
 
