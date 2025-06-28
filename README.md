@@ -67,9 +67,9 @@ The Data Product Toolkit is a free, open set of canvases designed to help teams 
 
 ---
 
-# FAQ and Resource Index
+# FAQ with examples
 
-This repository helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
+This section helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each question below links to a separate answer file, which includes:
 
 - Explanation of the concept  
 - Code snippets ([just plain YAML](faq/yaml)) 
