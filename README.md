@@ -20,11 +20,13 @@ Download free canvases (CC-BY) to design, measure, and manage data products usin
 
 ---
 
-### ODPS Discourse Server
+## ODPS Discourse Server
 
 The ODPS Discourse Server is an online community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS). It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
 
-### Udemy MasterClasses 
+---
+
+## Udemy MasterClasses 
 
 If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
 
@@ -38,14 +40,14 @@ If you're looking to apply ODPS in real-world business scenarios, including **mo
 
 ---
 
-### Data Product Toolkit
+## Data Product Toolkit
 
 The Data Product Toolkit is a free, open set of canvases designed to help teams design, measure, and manage data products effectively. It includes practical frameworks like the Data Product Canvas 2.1, Value Measure Framework, Blueprint Model, and more — all licensed under CC-BY. The toolkit guides you through defining use cases, aligning business value, and ensuring governance and scalability for successful data product development 
 
 [Get your copy](./resources/Data_Product_Toolkit.pdf)
 
 
-## What if I can not find what I was looking for?
+### What if I can not find what I was looking for?
 
 If you can not find what you are looking for, [raise an issue and describe the need](https://github.com/Open-Data-Product-Initiative/odps-examples/issues). 
 
