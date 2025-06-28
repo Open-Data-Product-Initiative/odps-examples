@@ -1,6 +1,6 @@
 ![header image](resources/header.png)
 
-# ODPS Knowledge Hub
+# ODPS Knowledge Base
 
 ## ODPS Support Resources
 
