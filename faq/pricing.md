@@ -86,6 +86,7 @@ These `$ref` links avoid duplication and centralize updates.
 Here's a higher tier with a fee and better terms:
 
 ```yaml
+
 - name: High Volume Access
   priceCurrency: USD
   price: 2000
@@ -97,13 +98,14 @@ Here's a higher tier with a fee and better terms:
     - Up to 500,000 SQL queries per month
     - Guaranteed SLA for availability and response time
   paymentGateway:
-    $ref: '#/paymentGateways/agent'
+    $ref: '#/Product/paymentGateways/agent'
   dataQuality:
-    $ref: '#/dataQuality/premium'
+    $ref: '#/Product/dataQuality/premium'
   SLA:
-    $ref: '#/SLA/premium'
+    $ref: '#/Product/SLA/premium'
   access:
-    $ref: '#/dataAccess/Agent'
+    $ref: '#/Product/dataAccess/Agent'
+
 ```
 
 The plan connects to premium SLA and data quality profiles and uses a dedicated AI-agent payment gateway.
