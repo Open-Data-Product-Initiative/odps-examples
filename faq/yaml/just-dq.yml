@@ -1,0 +1,26 @@
+dataQuality:
+  declarative:
+    default:
+      displaytitle:
+        en: The Basic Data Quality
+      dimensions:
+        - dimension: accuracy
+          objective: 90
+          unit: percentage
+        - dimension: completeness
+          objective: 90
+          unit: percentage
+    premium:
+      displaytitle:
+        en: The Premium Data Quality
+      dimensions:
+        - dimension: accuracy
+          objective: 98
+          unit: percentage
+        - dimension: completeness
+          objective: 99
+          unit: percentage
+
+
+
+

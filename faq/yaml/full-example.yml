@@ -61,13 +61,16 @@ product:
             Shadow pricing only for internal visibility. No actual billing
             applied.
           paymentGateway:
-            $ref: '#/paymentGateways/default'
+            $ref: '#/Product/paymentGateways/default'
           dataQuality:
-            $ref: '#/dataQuality/default'
+            $ref: '#/Product/dataQuality/declarative/default'
+
           SLA:
-            $ref: '#/SLA/default'
+            $ref: '#/Product/SLA/declarative/default'
+
+            
           access:
-            $ref: '#/dataAccess/API'
+            $ref: '#/Product/dataAccess/API'
         - name: Extended User
           priceCurrency: USD
           price: 300
@@ -83,13 +86,13 @@ product:
             Shadow pricing estimate based on infrastructure and operational cost
             models.
           paymentGateway:
-            $ref: '#/paymentGateways/default'
+            $ref: '#/Product/paymentGateways/default'
           dataQuality:
-            $ref: '#/dataQuality/default'
+            $ref: '#/Product/dataQuality/declarative/default'
           SLA:
-            $ref: '#/SLA/default'
+            $ref: '#/Product/SLA/declarative/default'
           access:
-            $ref: '#/dataAccess/API'
+            $ref: '#/Product/dataAccess/API'
         - name: High Volume Access
           priceCurrency: USD
           price: 2000
@@ -102,48 +105,49 @@ product:
             - Guaranteed SLA for availability and response time
           notes: Shadow pricing for strategic high-usage internal consumers.
           paymentGateway:
-            $ref: '#/paymentGateways/agent'
+            $ref: '#/Product/paymentGateways/agent'
           dataQuality:
-            $ref: '#/dataQuality/premium'
+            $ref: '#/Product/dataQuality/declarative/premium'
           SLA:
-            $ref: '#/SLA/premium'
+            $ref: '#/Product/SLA/declarative/premium'
           access:
-            $ref: '#/dataAccess/Agent'
+            $ref: '#/Product/dataAccess/Agent'
   SLA:
-    default:
-      name:
-        en: The Basic SLA
-      description:
-        en: The basic SLA package
-      dimensions:
-        - dimension: uptime
-          displaytitle:
-            en: Uptime
-          objective: 90
-          unit: percent
-        - dimension: responseTime
-          objective: 200
-          unit: milliseconds
-        - dimension: updateFrequency
-          objective: 30
-          unit: minutes
-    premium:
-      name:
-        en: The Premium SLA
-      description:
-        en: The Premium SLA package
-      dimensions:
-        - dimension: uptime
-          displaytitle:
-            en: Uptime
-          objective: 99
-          unit: percent
-        - dimension: responseTime
-          objective: 100
-          unit: milliseconds
-        - dimension: updateFrequency
-          objective: 5
-          unit: minutes
+    declarative:
+      default:
+        name:
+          en: The Basic SLA
+        description:
+          en: The basic SLA package
+        dimensions:
+          - dimension: uptime
+            displaytitle:
+              en: Uptime
+            objective: 90
+            unit: percent
+          - dimension: responseTime
+            objective: 200
+            unit: milliseconds
+          - dimension: updateFrequency
+            objective: 30
+            unit: minutes
+      premium:
+        name:
+          en: The Premium SLA
+        description:
+          en: The Premium SLA package
+        dimensions:
+          - dimension: uptime
+            displaytitle:
+              en: Uptime
+            objective: 99
+            unit: percent
+          - dimension: responseTime
+            objective: 100
+            unit: milliseconds
+          - dimension: updateFrequency
+            objective: 5
+            unit: minutes
   dataQuality:
     declarative:
       default:
@@ -188,6 +192,7 @@ product:
               en: Data Completeness (percent)
             objective: 99
             unit: percentage
+            
   dataAccess:
     default:
       name:
@@ -197,14 +202,6 @@ product:
       outputPorttype: file
       format: zip
       accessURL: url to file as zip
-    dataonly:
-      name:
-        en: Access to latest dataset
-      description:
-        en: Latest Dataset
-      outputPorttype: file
-      format: CSV
-      accessURL: url to file as CSV
     API:
       outputPorttype: API
       authenticationMethod: OAuth
@@ -222,6 +219,7 @@ product:
       format: MCP
       specsURL: 'https://urbanpulse.ai/llms.txt'
       documentationURL: 'https://urbanpulse.ai/llms-full.txt'
+
   paymentGateways:
     default:
       description:
@@ -244,6 +242,7 @@ product:
       reference: 'https://www.x402.org/'
       spec: |
         paymentMiddleware("0xYourAddress", {"/mcp-access": "$0.01"});
+
   support:
     phoneNumber: '+971508976456'
     phoneServiceHours: Mon–Fri 8am–4pm (GMT)

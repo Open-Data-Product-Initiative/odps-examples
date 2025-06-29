@@ -1,0 +1,21 @@
+
+SLA:
+  declarative:
+    default:
+      dimensions:
+        - dimension: uptime
+          displaytitle:
+            en: Uptime
+          objective: 90
+          unit: percent
+
+    premium:
+      dimensions:
+        - dimension: uptime
+          displaytitle:
+            en: Uptime
+          objective: 99
+          unit: percent
+
+
+
