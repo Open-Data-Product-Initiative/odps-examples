@@ -1,0 +1,14 @@
+
+# SLA profiles defined in ext file
+SLA:
+ declarative:
+    default:
+      $ref: 'https://example.com/sla-default.yaml'
+
+    premium:
+      $ref: 'https://example.com/sla-premium.yaml'
+  
+
+
+
+
