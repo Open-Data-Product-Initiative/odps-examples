@@ -1,0 +1,19 @@
+
+# SLA profiles defined in ext file
+SLA:
+  $ref: 'https://example.com/sla-packages.yaml'
+
+# Data Quality profiles defined in ext file
+dataQuality:
+  $ref: './dq-definitions.yaml'
+
+# Payment Gateway profiles defined in ext file
+paymentGateways:
+  $ref: 'https://example.com/schemas/v1.1/gateways.yaml'
+
+# Data Access profiles defined in ext file
+dataAccess:
+  $ref: 'https://example.com/access.yaml'
+
+
+
